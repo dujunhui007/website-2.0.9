@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="images/favicon.ico" rel="shortcut icon">
+    <title>Asch Website - Next generation blockchain application platform</title>
+    <meta charset="UTF-8" name="keywords" content="阿希,Asch,区块链,智能合约,数字资产发行,区块链应用平台,侧链,区块链开发,区块链js开发">
+    <meta name="description"
+          content="阿希是一个分布式的区块链应用平台,采用区块链侧链技术,实现区块链js开发、智能合约、数字资产发行等功能.Asch是一个具有前瞻性的、低成本的一站式应用解决方案,相信将成为新一代区块链应用的孵化器.">
+    <link rel="stylesheet" href="./css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/commons.min.css">
+    <link rel="stylesheet" href="./css/video-js.css">
+    <link rel="stylesheet" href="./css/introductionVideo.css">
+    <link rel="stylesheet" href="./btnHoverCss/base.css">
+    <link rel="stylesheet" href="./btnHoverCss/buttons.css">
+    <link rel="stylesheet" href="css/index.min.css">
+</head>
+<body class="deScroll">
+<nav>
+    <div class="navContainer">
+        <a class="navLeft" href="index.html">
+            <img src="images/aschLogo2.png" alt="logo">
+        </a>
+        <div class="navRight">
+            <ul>
+                <li>
+                    <a href="#home" id="nav_home">Home</a>
+                </li>
+                <li class="navLinksContainer">
+                    <a href="#introduction" id="nav_introduction">Introduction</a>
+                    <div class="navLinks">
+                        <a href="#features" id="nav_features">Features</a>
+                        <a href="#advantages" id="nav_advantages">Advantages</a>
+                        <a href="#scenarios" id="nav_scenarios">Scenarios</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#application" id="nav_dapps">Dapps</a>
+                </li>
+                <!--<li>-->
+                    <!--<a href="#features" id="nav_features">Features</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#advantages" id="nav_advantages">Advantages</a>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<a href="#scenarios" id="nav_scenarios">Scenarios</a>-->
+                <!--</li>-->
+                <li>
+                    <a href="#downloads" id="nav_downloads">Client</a>
+                </li>
+                <li>
+                    <a href="#timeLine" id="nav_timeLine">Roadmap</a>
+                </li>
+                <li class="navLinksContainer">
+                    <a href="#media" id="nav_partners">Partners</a>
+                    <div class="navLinks">
+                        <a href="#links" id="nav_links">Links</a>
+                    </div>
+                </li>
+                <li>
+                <a href="getStarted.html" id="nav_tutorial" target="_blank">Tutorial</a>
+                </li>
+            </ul>
+            <!--<div class="navSwitchLanguage">-->
+
+            <!--</div>-->
+            <div class="switchLanguageBtn">
+                <div class="btnContainer">
+                    <i class="sjx"></i>
+                    <div class="btn1">
+                        <i class="btnFlag1">
+                            <img src="images/uk.png" alt="national flag">
+                        </i>
+                        <span class="btnText1">English</span>
+                    </div>
+                    <div class="btn2">
+                        <i class="btnFlag2">
+                            <img src="images/china.png" alt="national flag">
+                        </i>
+                        <span class="btnText2">中文简体</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<a href="#home" class="toTop">
+    <span>
+        <i></i>
+    </span>
+</a>
+<div class="section" id="home">
+    <!--<canvas id="canvas" width="100%" height="100%">抱歉，您的浏览器不支持canvas元素</canvas>-->
+    <!--<div class="aschLogo homeLogoAmimateOne">-->
+    <!--<img src="images/aschHomeLogo.png" alt="asch-logo">-->
+    <!--</div>-->
+    <!--<p>Next Generation Decentralized Application Platform</p>-->
+    <!--暂时注释-->
+    <div class="homeContainer">
+        <div class="homeContainerContent">
+            <div class="aschHomeImg1">
+                <img src="images/aschHomeUKImg.png" alt="AschLogo">
+            </div>
+            <div class="aschHomeLinks">
+                <a class="toGetStarted" href="getStarted.html">
+                    <img class="toGetStarted1" src="images/get1.png" alt="Getstarted">
+                    <img class="toGetStarted2" src="images/Getstarted.png" alt="Getstarted">
+                </a>
+                <a class="toWhitePaper"
+                   href="http://asch-public.oss-cn-beijing.aliyuncs.com/asch.io/Asch-Whitepaper-en.pdf" target="_blank">
+                    <img class="toWhitePaper1" src="images/white1.png" alt="WhitePaper">
+                    <img class="toWhitePaper2" src="images/WhitePaper.png" alt="WhitePaper">
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!--demo-->
+    <canvas id="canv"></canvas>
+
+</div>
+<div class="homeLinksContainer">
+    <ul class="homeLinks">
+        <li class="toGit">
+            <a href="javascript:;" target="_blank">
+                <div class="linksIcon">
+                    <i></i>
+                    <span></span>
+                </div>
+                <p class="homeLinkGitHub">GitHub</p>
+                <p id="homeLinksAschCode">Asch source code repository</p>
+                <span class="rightLine"></span>
+            </a>
+        </li>
+        <li class="toExplore">
+            <a href="javascript:;" target="_blank">
+                <div class="linksIcon">
+                    <i></i>
+                    <span></span>
+                </div>
+                <p id="homeLinksAschExplorer">Explorer</p>
+                <p id="homeLinksAschExplorerContent">Blockchain explorer of Asch</p>
+                <span class="rightLine"></span>
+            </a>
+        </li>
+        <li class="toWallet">
+            <a href="javascript:;" target="_blank">
+                <div class="linksIcon">
+                    <i></i>
+                    <span></span>
+                </div>
+                <p id="homeLinksAschWallet">Wallet</p>
+                <p id="homeLinksAschWalletContent">Asch online wallet</p>
+                <span class="rightLine"></span>
+            </a>
+        </li>
+        <li class="homeToVideo">
+            <a href="javascript:;" target="_blank">
+                <div class="linksIcon">
+                    <i></i>
+                    <span></span>
+                </div>
+                <p id="homeLinksAschForum">Forum</p>
+                <p id="homeLinksAschForumContent">Asch forum</p>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="section" id="introduction">
+    <div class="sectionTop">
+        <i></i>
+        <span id="introductionTopTitle">Introduction</span>
+        <p id="introductionTopContent">Next-Generation Decentralized Application Platform</p>
+    </div>
+    <div class="introductionContainer">
+        <div class="aschVideo">
+            <div class="aschVideoContainer">
+                <div class="aschVideoContainerShade"></div>
+                <img src="images/aschVideo.jpg" alt="aschVideo">
+            </div>
+
+            <!--<span class="topVideo"></span>-->
+            <div class="showVideo">
+                <!--<span class="imgShow"></span>-->
+                <span class="imgHide"></span>
+            </div>
+            <img class="videoText" src="images/aschVideoText.png">
+        </div>
+        <div class="introductionCenter">
+            <div class="introductionContent">
+                <i></i>
+                <h3 id="introductionContentTitleOne">Asch is an efficient, flexible and safe decentralized application
+                    platform, which was initially
+                    designed
+                    to lower the barrier to entry for developers</h3>
+                <p id="introductionContentOne">Asch is an efficient, flexible and safe decentralized application
+                    platform, which was initially
+                    designed
+                    to lower the barrier to entry for developers. With the use of JavaScript as its
+                    application
+                    programming language, the platform makes use of relational databases to store data, drawing
+                    similarities
+                    between developing a DAPP and developing a traditional web application. This type of platform
+                    carries a
+                    great deal of appeal to developers, as well as small and medium enterprises, since its ease of use
+                    results in greater productivity, fuelling and facilitating a more prosperous ecosystem in the
+                    process.
+                    Asch is open in design and is not limited to any particular niche market such as finance, document
+                    storage, copyright certification, etc. The APIs which it provides are underlying and abstract, and
+                    they
+                    can be combined freely so as to facilitate a variety of applications. In terms of the consensus
+                    mechanism, Asch has inherited and enhanced the DPoS algorithm, simultaneously reducing the
+                    probability
+                    of forking and double spending by a significant degree. Furthermore, Asch's side chain, i.e. the
+                    application mode, not only improves scalability by delaying the expansion of the blockchain, but
+                    also
+                    makes DAPPs more flexible and personalized. Asch is a forward-looking, low-cost and one-stop
+                    application
+                    solution, which is believed to be a new generation of incubator for decentralized applications.</p>
+            </div>
+            <div class="introductionContent">
+                <i></i>
+                <h3 id="introductionContentTitleTwo">The services provided by the Asch platform include a public chain
+                    and a set of application
+                    SDKs.</h3>
+                <p id="introductionContentTwo">The services provided by the Asch platform include a public chain and a
+                    set of application SDKs; the
+                    public chain is called the main chain. The Asch application SDKs can be used to develop blockchain
+                    applications with a free-running, immutable ledger. These applications are also known as side chain
+                    applications. An application SDK has a built-in cross-chain protocol, through which the side chain
+                    can
+                    communicate with the main chain. In other words, the main chain has the function of asset routing,
+                    through which a variety of assets can flow among different applications. Asch's ecological system
+                    contains multiple chains, with each chain possessing the ability to carry multiple tokens or assets.
+                    Each token or asset can also be transferred to multiple chains.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="videoBackground"></div>
+<div class="m">
+    <video id="my-video" class="video-js" controls preload="auto" loop="true"
+           data-setup="{}">
+        <source src="https://asch-public.oss-cn-beijing.aliyuncs.com/asch.io/integrity1.mp4" type="video/mp4">
+        <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+        </p>
+    </video>
+    <span class="closedVideo"></span>
+</div>
+<div class="section" id="application">
+    <div class="sectionTop">
+        <i></i>
+        <span id="dappsTitle">Dapps</span>
+        <p id="dappsTopContent">Next-Generation Decentralized Application Platform</p>
+        <a href="dapps.html" id="toDapps" target="_blank">More +</a>
+    </div>
+    <div class="swiperButtonContainer">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide dapp1">
+                    <div class="hotTopImg">
+                        <img class="hotTopImgUrl" src="images/cctimexiao.jpg" alt="hotTopImg">
+                        <span>Hot</span>
+                        <i>
+                            <img src="images/cctimeWatermark.png" alt="cctimeWatermark.png">
+                        </i>
+                    </div>
+                    <div class="applicationDetail">
+                        <p class="applicationDetailTitle">CCTime</p>
+                        <span class="applicationDetailLine"></span>
+                        <p class="applicationDetailDescribe" id="applicationDetailContent1">CCTime, focusing on
+                            spreading valuable information, is a distributed sharing platform of social news developed
+                            on Asch side chain technology.</p>
+                        <a class="applicationDetailMore" id="applicationDetailMore1" href="javascript:;">Read more</a>
+                    </div>
+
+                </div>
+                <div class="swiper-slide dapp2">
+                    <div class="hotTopImg">
+                        <img class="hotTopImgUrl" src="images/kmwbg.png" alt="hotTopImg">
+                        <span>Hot</span>
+                        <i>
+                            <img src="images/kmcWatermark.png" alt="">
+                        </i>
+                    </div>
+                    <div class="applicationDetail">
+                        <p class="applicationDetailTitle" id="applicationDetailTitle2">Koumei Cottage</p>
+                        <span class="applicationDetailLine"></span>
+                        <p class="applicationDetailDescribe" id="applicationDetailDescribe2">Koumei Cottage(KMC), which
+                            is called “Kong Ming Wu” in Chinese, is a decentralized market predicting application based
+                            on Asch platform.</p>
+                        <a class="applicationDetailMore" id="applicationDetailMore2" href="javascript:;">Read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide dapp3">
+                    <div class="hotTopImg">
+                        <img class="hotTopImgUrl" src="images/bangbg.jpg" alt="hotTopImg">
+                        <!--<span>Hot</span>-->
+                        <i>
+                            <img src="images/bangWatermark.png" alt="">
+                        </i>
+                    </div>
+                    <div class="applicationDetail">
+                        <p class="applicationDetailTitle" id="applicationDetailTitle3">Help China</p>
+                        <span class="applicationDetailLine"></span>
+                        <p class="applicationDetailDescribe" id="applicationDetailDescribe3">Help China is a mobile
+                            application of light-social, news and platform based on Asch chain with the function that
+                            users can allocate and accept assignments online, chat and browse news.</p>
+                        <a class="applicationDetailMore" id="applicationDetailMore3" href="javascript:;">Read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide dapp4">
+                    <div class="hotTopImg">
+                        <img class="hotTopImgUrl" src="images/hellokimiBg1.jpg" alt="hotTopImg">
+                        <!--<span>Hot</span>-->
+                        <i>
+                            <img src="images/helloWatermark.png" alt="">
+                        </i>
+                    </div>
+                    <div class="applicationDetail">
+                        <p class="applicationDetailTitle" id="applicationDetailTitle4">Hello Kimi</p>
+                        <span class="applicationDetailLine"></span>
+                        <p class="applicationDetailDescribe" id="applicationDetailDescribe4">Hello Kimi is the first
+                            cloud pets social casual game platform in China based on Asch side-chain technology.</p>
+                        <a class="applicationDetailMore" id="applicationDetailMore4" href="javascript:;">Read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide dapp5">
+                    <div class="hotTopImg">
+                        <img class="hotTopImgUrl" src="images/dreamWorldx.png" alt="hotTopImg">
+                        <span>Hot</span>
+                        <i>
+                            <img src="images/watermark5.png" alt="">
+                        </i>
+                    </div>
+                    <div class="applicationDetail">
+                        <p class="applicationDetailTitle" id="applicationDetailTitle5">Dream World</p>
+                        <span class="applicationDetailLine"></span>
+                        <p class="applicationDetailDescribe" id="applicationDetailContent5">Its a distributed shared 3D
+                            virtual space platform based on the earths world. Its the most privacy preserving and widely
+                            participated social interaction platform. Its a digital materialized world experience
+                            platform
+                            based on VR and AR. Its a platform for value added and maintenance of digital assets.</p>
+                        <a class="applicationDetailMore" id="applicationDetailMore5" href="javascript:;">Read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide dapp6">
+                    <div class="hotTopImg">
+                        <img class="hotTopImgUrl" src="images/subSpacex.png" alt="hotTopImg">
+                        <span>Hot</span>
+                        <i>
+                            <img src="images/watermark6.png" alt="">
+                        </i>
+                    </div>
+                    <div class="applicationDetail">
+                        <p class="applicationDetailTitle" id="applicationDetailTitle6">SubSpace</p>
+                        <span class="applicationDetailLine"></span>
+                        <p class="applicationDetailDescribe" id="applicationDetailContent6">SubSpace is based on the
+                            value
+                            of the game for players to play autonomy as the core, developed by Asch side-chain
+                            technology
+                            distributed intelligent game platform.</p>
+                        <a class="applicationDetailMore" id="applicationDetailMore6" href="javascript:;">Read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide dapp7">
+                    <div class="hotTopImg">
+                        <img class="hotTopImgUrl" src="images/propitiousDogx.png" alt="hotTopImg">
+                        <span>Hot</span>
+                        <i>
+                            <img src="images/watermark7.png" alt="">
+                        </i>
+                    </div>
+                    <div class="applicationDetail">
+                        <p class="applicationDetailTitle" id="applicationDetailTitle7">Propitious Dog</p>
+                        <span class="applicationDetailLine"></span>
+                        <p class="applicationDetailDescribe" id="applicationDetailContent7">Leaving 2017 Year of the
+                            Rooster, 2018 Year of dog is coming. As Spring Festival which is Chinas most important
+                            traditional festival arrives, Chinas first encrypted zodiac collection applications based on
+                            blockchain technology will be released on the Asch Chain platform.</p>
+                        <a class="applicationDetailMore" id="applicationDetailMore7" href="javascript:;">Read more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide dapp8">
+                    <div class="hotTopImg">
+                        <img class="hotTopImgUrl" src="images/cctimexiao.jpg" alt="hotTopImg">
+                        <span>Hot</span>
+                        <i>
+                            <img src="images/cctimeWatermark.png" alt="">
+                        </i>
+                    </div>
+                    <div class="applicationDetail">
+                        <p class="applicationDetailTitle">CCTime</p>
+                        <span class="applicationDetailLine"></span>
+                        <p class="applicationDetailDescribe" id="applicationDetailContent8">CCTime, focusing on
+                            spreading valuable information, is a distributed sharing platform of social news developed
+                            on Asch side chain technology.</p>
+                        <a class="applicationDetailMore" id="applicationDetailMore8" href="javascript:;">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next">
+                <img src="images/right.png" alt="">
+            </div>
+            <div class="swiper-button-prev">
+                <img src="images/left.png" alt="">
+            </div>
+        </div>
+    </div>
+    <p id="dappsStatement1">* DAPPs information is provided by the project parties. Asch does not endorse the third
+        party projects.</p>
+
+
+</div>
+<div class="section featuresOne" id="features">
+    <div class="sectionTop">
+        <i></i>
+        <span id="feature1">Features 01.</span>
+        <p id="commonText1">Next-Generation Decentralized Application Platform</p>
+    </div>
+    <div class="featuresTopContainer">
+        <div class="featuresTopBorderOne"></div>
+        <div class="featuresTopBorderTwo"></div>
+        <div class="featuresTop">
+            <h4 id="featuresTopTitle">Public chain</h4>
+            <p id="featuresTopTitleContent">Asch's public chain is mainly responsible for data sharing between
+                infrastructure and applications; it is
+                also used for asset routing. The SDKs are responsible for building specific applications.</p>
+            <ul>
+                <li>
+                    <i></i>
+                    <span id="featuresTopTitle2">Application management</span>
+                    <p id="featuresTopTitleContent2">Applications need to register meta-information into the main chain
+                        before issued. The
+                        meta-information includes the name and description of the applications, the initial witnesses,
+                        and
+                        other relevant configuration information for the asset routing. Users can browse, retrieve,
+                        trace,
+                        download and visit decentralized applications through the module.</p>
+                </li>
+                <li>
+                    <i></i>
+                    <span id="featuresTopTitle3">Asset routing</span>
+                    <p id="featuresTopTitleContent3">The assets registered on the main-chain can communicate with each
+                        application via cross-chain.
+                        Although applications are separated from each other, the flow of value could be realized through
+                        the
+                        asset routing function of the main chain.</p>
+                </li>
+                <li>
+                    <i></i>
+                    <span id="featuresTopTitle4">Asset management</span>
+                    <p id="featuresTopTitleContent4">Any accounts can register and issue multiple assets, and the issuer
+                        can configure the assets in
+                        various ways, for example, through the use of an access control list.</p>
+                </li>
+                <li>
+                    <i></i>
+                    <span id="featuresTopTitle5">Delegate management</span>
+                    <p id="featuresTopTitleContent5">Each account with tokens on the Asch main-chain can be registered
+                        as a delegate, which is also
+                        known as a “witness”. The top 101 delegates are given the opportunity and responsibility of
+                        being the system's account keepers, including the right to forging (or mining, accounting and
+                        generating blocks) which results in the reward of a certain amount of tokens. The account
+                        keepers can be promoted via the vote of the token holders, who are able to vote for any
+                        delegates, to raise their ranking.</p>
+                </li>
+                <li>
+                    <i></i>
+                    <span id="featuresTopTitle6">Account management</span>
+                    <p id="featuresTopTitleContent6">The account model is adopted at the lower level of Asch chain. Each
+                        private key corresponds to an
+                        account in which the basic user information such as the wallet address, public key, nickname, as
+                        well as other configuration information or statistical information is stored. As all application
+                        chains use the same account model, an account on the Asch chain is able to use the functions of
+                        all applications directly.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="section" id="featuresTwo">
+    <div class="sectionTop featuresTwoContainer">
+        <i></i>
+        <span id="feature2">Features 02.</span>
+        <p id="commonText2">Next-Generation Decentralized Application Platform</p>
+    </div>
+    <div class="featuresBottomContainer">
+        <div class="featuresBottomBorderOne"></div>
+        <div class="featuresBottomBorderTwo"></div>
+        <div class="featuresBottom">
+            <h4 id="featuresTopTitle7">SDK</h4>
+            <p id="featuresTopTitleContent7">Asch's public chain is mainly responsible for data sharing between
+                infrastructure and applications; it is
+                also used for asset routing. The SDKs are responsible for building specific applications.</p>
+            <ul>
+                <li>
+                    <i></i>
+                    <span id="featuresTopTitle8">ORM</span>
+                    <p id="featuresTopTitleContent8">Object-Relational Mapping (ORM) can support relational mapping of
+                        objects to organize business
+                        data, and support index allocation, whilst complex searches can be realized with the JSON
+                        language.</p>
+                </li>
+                <li>
+                    <i></i>
+                    <span id="featuresTopTitle9">JavaScript</span>
+                    <p id="featuresTopTitleContent9">Developers can utilize and combine huge amounts of third-party
+                        components freely by using
+                        JavaScript as the native language.</p>
+                </li>
+                <li>
+                    <i></i>
+                    <span id="featuresTopTitle10">Two-way peg cross-chain protocol</span>
+                    <p id="featuresTopTitleContent10">Cross-chain protocol supporting two-way peg.</p>
+                </li>
+                <li>
+                    <i></i>
+                    <span id="featuresTopTitle11">Immutable ledger</span>
+                    <p id="featuresTopTitleContent11">An immutable ledger is built in with the account setup function.
+                        All invoking operations and
+                        statuses will be written into the immutable ledger when developers and users invoke a chain code
+                        function.</p>
+                </li>
+                <li>
+                    <i></i>
+                    <span id="featuresTopTitle12">Lower level interfaces</span>
+                    <p id="featuresTopTitleContent12">In comparison to the Solidity language of Ethereum, Asch allows
+                        developers to use underlying APIs
+                        so as to gain maximum control of the whole system, examples including the handler and filter of
+                        every cycle time event.</p>
+                </li>
+                <li>
+                    <i></i>
+                    <span id="featuresTopTitle13">Customize fee definitions</span>
+                    <p id="featuresTopTitleContent13">Developers can set up different service charges for every event or
+                        chain code, and even can set
+                        up different asset tokens aside from XAS as service charge.</p>
+                </li>
+                <li>
+                    <i></i>
+                    <span id="featuresTopTitle14">Transaction privacy</span>
+                    <p id="featuresTopTitleContent14">The feature of optional transaction privacy.</p>
+                </li>
+                <li>
+                    <i></i>
+                    <span id="featuresTopTitle15">SmartDB</span>
+                    <p id="featuresTopTitleContent15">Cache and persistent data storage can be synchronized
+                        automatically to greatly improve writing
+                        performance.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="section" id="advantages">
+    <div class="sectionTop advantagesTitle">
+        <i></i>
+        <span id="AdvantagesTitle">Advantages</span>
+        <p id="commonText3">Next-Generation Decentralized Application Platform</p>
+    </div>
+    <div class="advantageLogo"></div>
+    <!--<hr>-->
+    <div class="advantagesContainerBack">
+    </div>
+    <div class="advantagesContainer">
+        <ul>
+            <li>
+                <div class="advantageItemContainer">
+                    <div class="advantagesContainerSupernatant"></div>
+                    <i></i>
+                    <span></span>
+                    <p class="advantagesContainerText1" id="advantages1">Low Cost</p>
+                    <p class="advantagesContainerText2" id="advantagesContent1">Developers can customize a gas token,
+                        which can effectively
+                        control operation costs.</p>
+                </div>
+            </li>
+            <li>
+                <div class="advantageItemContainer">
+                    <div class="advantagesContainerSupernatant"></div>
+                    <i></i>
+                    <span></span>
+                    <p class="advantagesContainerText1" id="advantages2">Safety</p>
+                    <p class="advantagesContainerText2" id="advantagesContent2">PBFT enhanced DPOS. Multi-level payment
+                        passwords. Applications are isolated to prevent error
+                        spreading. Sandbox mechanism can manage untrusted code.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="advantageItemContainer">
+                    <div class="advantagesContainerSupernatant"></div>
+                    <i></i>
+                    <span></span>
+                    <p class="advantagesContainerText1" id="advantages3">Reuseability</p>
+                    <p class="advantagesContainerText2" id="advantagesContent3">Applications can share data on Asch
+                        platform. Furthermore,
+                        they can reuse assets on different blockchains.</p>
+                    <!--<div class="advantagesContainerSupernatant"></div>-->
+                </div>
+
+            </li>
+            <li>
+                <div class="advantageItemContainer">
+                    <div class="advantagesContainerSupernatant"></div>
+                    <i></i>
+                    <span></span>
+                    <p class="advantagesContainerText1" id="advantages4">Flexibility</p>
+                    <p class="advantagesContainerText2" id="advantagesContent4">Assets and applications are decoupled.
+                        One token can be used on
+                        multi-chains, and one chain can hold multiple tokens.</p>
+                    <!--<div class="advantagesContainerSupernatant"></div>-->
+                </div>
+
+            </li>
+            <li>
+                <div class="advantageItemContainer">
+                    <div class="advantagesContainerSupernatant"></div>
+                    <i></i>
+                    <span></span>
+                    <p class="advantagesContainerText1" id="advantages5">Usability</p>
+                    <p class="advantagesContainerText2" id="advantagesContent5">Based on JavaScript stack,SDK supports
+                        advanced features like
+                        ORM、SmartDB etc that make DAPP development more easier.</p>
+                    <!--<div class="advantagesContainerSupernatant"></div>-->
+                </div>
+
+            </li>
+            <li>
+                <div class="advantageItemContainer">
+                    <div class="advantagesContainerSupernatant"></div>
+                    <i></i>
+                    <span></span>
+                    <p class="advantagesContainerText1" id="advantages6">Performance</p>
+                    <p class="advantagesContainerText2" id="advantagesContent6">More than 1500 transactions per second,
+                        performance is scalable
+                        by fragment and parallel.</p>
+                    <!--<div class="advantagesContainerSupernatant"></div>-->
+                </div>
+
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="section" id="scenarios">
+    <div class="sectionTop">
+        <i></i>
+        <span id="scenariosTitle">Scenarios</span>
+        <p id="commonText4">Next-Generation Decentralized Application Platform</p>
+    </div>
+    <div class="scenariosBackground">
+        <img src="images/scenariosback1.png" alt="scenarios background Logo">
+    </div>
+    <div class="scenariosContainerCenter">
+        <div class="scenariosTitle">
+            <i></i>
+            <h3 id="scenariosTitle1">The Asch platform can be applied to the following application scenarios, but is not
+                limited to
+                them.</h3>
+        </div>
+        <div class="scenariosTitleBottom"></div>
+        <div class="scenariosContainer">
+            <ul>
+                <li>
+                    <h4 id="scenariosTitle2">Content publishing platform</h4>
+                    <a href="javascript:;" id="scenariosDescribe2">Key words: token incentive, value transfer, group
+                        wisdom</a>
+                    <p id="scenariosContent2">On the internet, large enterprises deliver content which users are
+                        interested in by analyzing
+                        their
+                        reading habits, thus enabling them to capitalize on their behaviour. At the same time, the
+                        algorithm
+                        also creates a niche, which deprives rights to choose and recognize. However,
+                        through the use of the decentralization feature of the blockchain, the most interesting news in
+                        the
+                        community can be selected through the help of the group wisdom of the users. Meanwhile, the
+                        token
+                        incentive mechanism can be applied since its economic mechanism is able to stimulate the
+                        participants’ enthusiasm. This solves the problem that quality content is difficult to be
+                        identified and realized. The value will therefore return to its creators and deliverers,
+                        allowing it to
+                        be
+                        shared by all participants.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="scenariosContainer">
+            <ul>
+                <li>
+                    <h4 id="scenariosTitle3">Market prediction</h4>
+                    <a href="javascript:;" id="scenariosDescribe3">Key words: token incentive, value transfer, public
+                        participation</a>
+                    <p id="scenariosContent3">Market prediction is the collection of indicators of confidence and
+                        judgment from different
+                        parties
+                        regarding the same topic, based on market principles, so as to predict the future result of an
+                        event.
+                        The blockchain is distributed, open, transparent and immutable. We believe that it is able to
+                        solve
+                        the issue of insufficient credibility which exists in traditional prediction platforms. This
+                        solution establishes a credible, autonomous, value-transitive and extensible platform for market
+                        prediction. The platform will be able to predict upcoming events with the aid of senior wisdom
+                        derived from large-scale co-operation, attracting more people to participate in the process by
+                        utilizing the built-in token incentive.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="scenariosContainer">
+            <ul>
+                <li>
+                    <h4 id="scenariosTitle4">Exchange platform</h4>
+                    <a href="javascript:;" id="scenariosDescribe4">Key words: safety, decentralization, low fee,
+                        anonymity, scalability</a>
+                    <p id="scenariosContent4">The exchange platform, which is based on distributed blockchain
+                        technology, is an important part
+                        of
+                        Asch's ecology. Asch represents a new generation of blockchain application development
+                        platforms,
+                        based on side chain technology. On the platform, a number of excellent projects and many
+                        different
+                        types of tokens will be created and developed. At this moment in time, the system and
+                        functionality
+                        of the exchange platform represents the basic demands of many users, since it
+                        includes
+                        a wide array of features such as decentralization, disintermediation, safety, low fees,
+                        anonymity,
+                        and scalability, which other exchange platforms do not have. With side chain technology,
+                        Bitcoin,
+                        Ethereum and other high-quality projects can become interconnected, allowing streamlined
+                        circulation of digital assets, whilst eliminating isolation amongst them.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="scenariosContainer">
+            <ul>
+                <li>
+                    <h4 id="scenariosTitle5">Social media</h4>
+                    <a href="javascript:;" id="scenariosDescribe5">Key words: value network, data private</a>
+                    <p id="scenariosContent5">Internet-based social media companies data produced by users and
+                        unilaterally consume users
+                        through protocols which users are forced to comply with. Users are not able to fully enjoy the
+                        benefits of creating, establishing and maintaining their own community. As a result, social
+                        media
+                        based on the main-chain distributed technology is a trend of future development. With the
+                        decentralization feature of the blockchain, it is able to achieve data and value freedom.
+                        Furthermore, through the use of the built-in token mechanism, a complete and positive-feedback
+                        value incentive economic system will be established so as to promote the development of the
+                        entire
+                        ecosystem.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="scenariosContainer">
+            <ul>
+                <li>
+                    <h4 id="scenariosTitle6">IP Copyright protection</h4>
+                    <a href="javascript:;" id="scenariosDescribe6">Key words: tractability, value incentive</a>
+                    <p id="scenariosContent6">The popularity of the IP economy has made many peopole aware of the
+                        importance of IP, and IP
+                        mostly
+                        comes from literary works, which highlights the importance of copyright. The biggest difficulty
+                        of
+                        copyright protection is to collect evidence in circulation. Circulation is uncontrollable, so
+                        comprehensive protection of copyright cannot be assured. Blockchain technology is able to
+                        greatly
+                        reduce piracy, by providing protection to the entire ecosystem in the form of copyright which
+                        features traceability and immutability. The rights in the process of creation can be
+                        simultaneously
+                        and permanently stored in the blockchain， creating evidence for future potential disputes to be
+                        resolved easily.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="scenariosContainer">
+            <ul>
+                <li>
+                    <h4 id="scenariosTitle7">Public donation</h4>
+                    <a href="javascript:;" id="scenariosDescribe7">Key words: transparency, safety, decentralization</a>
+                    <p id="scenariosContent7">The essence of public donations is a process of social wealth
+                        redistribution. The goal, amount and
+                        execution of wealth redistribution are determined by public organizations. Nowadays, the biggest
+                        contradiction in the public welfare field is the demand for public donations and the loss of
+                        non-profit organizations’ credibility. The inherent features of decentralization, transparency
+                        and immutability
+                        of
+                        the blockchain make the acceptance, donations and all other operations inherently exposed to the
+                        public, breaking any distrust between donors and executors.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="section" id="downloads">
+    <div class="sectionTop">
+        <i></i>
+        <span id="downloadsTitle">Downloads</span>
+        <p id="commonText5">Next-Generation Decentralized Application Platform</p>
+    </div>
+    <div class="downloadsContainer">
+        <div class="downloadsContainerLeft">
+            <ul class="dlist">
+                <li class="active" id="downloadsTitle1">Wallet for PC</li>
+                <li id="downloadsTitle2">Light client</li>
+                <li id="downloadsTitle3">Node Installation Package</li>
+                <li id="downloadsTitle4">Mobile wallet</li>
+            </ul>
+            <ul class="dlsit-list">
+                <li>
+                    <h4 id="downloadsTitle11">Wallet for PC</h4>
+                    <div class="dlistContainer">
+                        <span>MD5: 36ddb23f15997ba4592834188f580f6e</span>
+                        <span>Version: 1.0.3 Size: 75M</span>
+                    </div>
+                    <p id="downloadContent1">Green PC wallet with the functions of transfering、asset monitoring、backup
+                        and recovery，supporting multi-account and
+                        multi-asset management, available on Windows、Ubuntu、MacOS, is designed for ordinary users to
+                        manage XAS and other Asch-platform assets.</p>
+                    <div class="dlistBtns">
+                        <a href="http://downloads.asch.cn/appupdate/pc-wallet/asch-wallet-windows.zip"
+                           class="button button--rayen button--border-thin button--text-thick button--text-upper button--size-s"
+                           data-text="Download"><span id="downloadLink1">Download</span></a>
+                        <a href="https://github.com/AschPlatform" target="_blank"
+                           class="button button--rayen button--border-thin button--text-thick button--text-upper button--size-s"
+                           data-text="More"><span id="downloadLink11">More</span></a>
+                    </div>
+                </li>
+                <li>
+                    <h4 id="downloadsTitle22">Light client</h4>
+                    <div class="dlistContainer">
+                        <span>MD5: 51ea873ee696fdf34b654f2d781a188a</span>
+                        <span>Version: 1.3.1 Size: 32M</span>
+                    </div>
+                    <p id="downloadContent2">All front-end functions of Asch platform are available for the PC client
+                        with assets,
+                        personal center, application center, block forging, block browsing, voting, payment and suitable
+                        for advanced users who need all the platform functions.</p>
+                    <div class="dlistBtns">
+                        <!--<a href="http://o7dyh3w0x.bkt.clouddn.com/AschLiteClient1.3.1.zip">Download</a>-->
+                        <a href="http://o7dyh3w0x.bkt.clouddn.com/AschLiteClient1.3.1.zip"
+                           class="button button--rayen button--border-thin button--text-thick button--text-upper button--size-s"
+                           data-text="Download"><span id="downloadLink2">Download</span></a>
+                        <a href="https://github.com/AschPlatform" target="_blank"
+                           class="button button--rayen button--border-thin button--text-thick button--text-upper button--size-s"
+                           data-text="More"><span id="downloadLink22">More</span></a>
+                    </div>
+                </li>
+                <li>
+                    <h4 id="downloadsTitle33">Node Installation Package</h4>
+                    <div class="dlistContainer">
+                        <span>MD5: dd70665e8c9ee35c895136035b2a3bcd</span>
+                        <span>Version: 1.0.3 Size: 36M</span>
+                    </div>
+                    <p id="downloadContent3">It is an back-end service on Asch platform, running blockchain service and
+                        ensuring DAPP
+                        operation. Asch delegates or nodes need to install while normal users not.The server is required
+                        at least 2-core CPU,4GB memory,2MB bandwidth and Linux 64 system(Ubuntu Server 16.04 is
+                        recomended).</p>
+                    <div class="dlistBtns">
+                        <a href="https://www.asch.io/downloads/asch-linux-latest-mainnet.tar.gz"
+                           class="button button--rayen button--border-thin button--text-thick button--text-upper button--size-s"
+                           data-text="Download"><span id="downloadLink3">Download</span></a>
+                        <a href="https://github.com/AschPlatform" target="_blank"
+                           class="button button--rayen button--border-thin button--text-thick button--text-upper button--size-s"
+                           data-text="More"><span id="downloadLink33">More</span></a>
+                    </div>
+                </li>
+                <li>
+                    <h4 id="downloadsTitle44">Mobile wallet</h4>
+                    <div class="dlistContainer">
+                        <span>MD5: 79e5dc7e517df9ed7a20ad2879eec0e9
+</span>
+                        <span>Version:1.1.0 size:24M</span>
+                    </div>
+                    <p id="downloadContent4">It is an mobile application which supports multi-account, multi-asset and
+                        Asch platform DAPPs in
+                        both Android and iOS platform which is in development. It is suitable for normal users who have
+                        XAS and other assets on Asch platform.</p>
+                    <div class="dlistBtns">
+                        <a title="For Android"
+                           href="http://asch-public.oss-cn-beijing.aliyuncs.com/appupdate/android/app-release.apk"
+                           class="button button--rayen button--border-thin button--text-thick button--text-upper button--size-s"
+                           data-text="Download"><span id="downloadLink4">Download</span></a>
+                        <a href="https://github.com/AschPlatform" target="_blank"
+                           class="button button--rayen button--border-thin button--text-thick button--text-upper button--size-s"
+                           data-text="More"><span id="downloadLink44">More</span></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="downloadsContainerRight"></div>
+    </div>
+</div>
+<div class="section" id="timeLine">
+    <div class="sectionTop">
+        <i></i>
+        <span id="timeLineTitle">Rodemap</span>
+        <p id="commonText7">Next-Generation Decentralized Application Platform</p>
+    </div>
+
+    <div class="timeLineContainer">
+
+        <div class="timeLineLogo">
+            <span>
+                <img src="images/timeLineLogo.png" alt="timeLineLogo">
+            </span>
+            <i>
+                <img src="images/timeLineLine.png" alt="timeLineLine">
+            </i>
+        </div>
+
+        <a class="toTimeLine" id="timeLineLink" href="timeLine.html" target="_blank">more+</a>
+
+        <ul class="rodemapContainer">
+
+            <li>
+                <div class="rodemapContainerLeft">
+                    <h3>2017</h3>
+                    <p>12.26</p>
+                </div>
+
+                <div class="point"><b></b></div>
+
+                <div class="rodemapContainerRight">
+
+                    <div class="rodemapContainerRightTitle">
+                        <p>version 1.3.5 of Asch was released</p>
+                    </div>
+                    <ul class="rodemapContainerRightContent">
+                        <li>
+                            <p>A new lock position can be set if it’s higher than the current lock position, this
+                                function will come into effect when the block height reaches 4290000. </p>
+                        </li>
+                        <li>
+                            <p>Stability of the wallet is improved, the probability of transfer failure is significantly
+                                reduced (the previous page has already supported load balancing and high availability)
+                                when using web wallet.</p>
+                        </li>
+                        <li>
+                            <p>Multi-nodes selection is supported when upgrading or rebuilding.</p>
+                        </li>
+                        <li>
+                            <p>Enhancement of security, the issue of the dependency library security is modified.</p>
+                        </li>
+                        <li>
+                            <p>Fixed other bugs.</p>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="rodemapContainerLeft">
+                    <h3>2017</h3>
+                    <p>12.26</p>
+                </div>
+
+                <div class="point"><b></b></div>
+
+                <div class="rodemapContainerRight">
+
+                    <div class="rodemapContainerRightTitle">
+                        <p>version 1.3.5 of Asch was released</p>
+                    </div>
+                    <ul class="rodemapContainerRightContent">
+                        <li>
+                            <p>A new lock position can be set if it’s higher than the current lock position, this
+                                function will come into effect when the block height reaches 4290000. </p>
+                        </li>
+                        <li>
+                            <p>Stability of the wallet is improved, the probability of transfer failure is significantly
+                                reduced (the previous page has already supported load balancing and high availability)
+                                when using web wallet.</p>
+                        </li>
+                        <li>
+                            <p>Multi-nodes selection is supported when upgrading or rebuilding.</p>
+                        </li>
+                        <li>
+                            <p>Enhancement of security, the issue of the dependency library security is modified.</p>
+                        </li>
+                        <li>
+                            <p>Fixed other bugs.</p>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="rodemapContainerLeft">
+                    <h3>2017</h3>
+                    <p>12.26</p>
+                </div>
+
+                <div class="point"><b></b></div>
+
+                <div class="rodemapContainerRight">
+
+                    <div class="rodemapContainerRightTitle">
+                        <p>version 1.3.5 of Asch was released</p>
+                    </div>
+                    <ul class="rodemapContainerRightContent">
+                        <li>
+                            <p>A new lock position can be set if it’s higher than the current lock position, this
+                                function will come into effect when the block height reaches 4290000. </p>
+                        </li>
+                        <li>
+                            <p>Stability of the wallet is improved, the probability of transfer failure is significantly
+                                reduced (the previous page has already supported load balancing and high availability)
+                                when using web wallet.</p>
+                        </li>
+                        <li>
+                            <p>Multi-nodes selection is supported when upgrading or rebuilding.</p>
+                        </li>
+                        <li>
+                            <p>Enhancement of security, the issue of the dependency library security is modified.</p>
+                        </li>
+                        <li>
+                            <p>Fixed other bugs.</p>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="rodemapContainerLeft">
+                    <h3>2017</h3>
+                    <p>12.26</p>
+                </div>
+
+                <div class="point"><b></b></div>
+
+                <div class="rodemapContainerRight">
+
+                    <div class="rodemapContainerRightTitle">
+                        <p>version 1.3.5 of Asch was released</p>
+                    </div>
+                    <ul class="rodemapContainerRightContent">
+                        <li>
+                            <p>A new lock position can be set if it’s higher than the current lock position, this
+                                function will come into effect when the block height reaches 4290000. </p>
+                        </li>
+                        <li>
+                            <p>Stability of the wallet is improved, the probability of transfer failure is significantly
+                                reduced (the previous page has already supported load balancing and high availability)
+                                when using web wallet.</p>
+                        </li>
+                        <li>
+                            <p>Multi-nodes selection is supported when upgrading or rebuilding.</p>
+                        </li>
+                        <li>
+                            <p>Enhancement of security, the issue of the dependency library security is modified.</p>
+                        </li>
+                        <li>
+                            <p>Fixed other bugs.</p>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="rodemapContainerLeft">
+                    <h3>2017</h3>
+                    <p>12.26</p>
+                </div>
+
+                <div class="point"><b></b></div>
+
+                <div class="rodemapContainerRight">
+
+                    <div class="rodemapContainerRightTitle">
+                        <p>version 1.3.5 of Asch was released</p>
+                    </div>
+                    <ul class="rodemapContainerRightContent">
+                        <li>
+                            <p>A new lock position can be set if it’s higher than the current lock position, this
+                                function will come into effect when the block height reaches 4290000. </p>
+                        </li>
+                        <li>
+                            <p>Stability of the wallet is improved, the probability of transfer failure is significantly
+                                reduced (the previous page has already supported load balancing and high availability)
+                                when using web wallet.</p>
+                        </li>
+                        <li>
+                            <p>Multi-nodes selection is supported when upgrading or rebuilding.</p>
+                        </li>
+                        <li>
+                            <p>Enhancement of security, the issue of the dependency library security is modified.</p>
+                        </li>
+                        <li>
+                            <p>Fixed other bugs.</p>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </li>
+            <li>
+                <div class="rodemapContainerLeft">
+                    <h3>2017</h3>
+                    <p>12.26</p>
+                </div>
+
+                <div class="point"><b></b></div>
+
+                <div class="rodemapContainerRight">
+
+                    <div class="rodemapContainerRightTitle">
+                        <p>version 1.3.5 of Asch was released</p>
+                    </div>
+                    <ul class="rodemapContainerRightContent">
+                        <li>
+                            <p>A new lock position can be set if it’s higher than the current lock position, this
+                                function will come into effect when the block height reaches 4290000. </p>
+                        </li>
+                        <li>
+                            <p>Stability of the wallet is improved, the probability of transfer failure is significantly
+                                reduced (the previous page has already supported load balancing and high availability)
+                                when using web wallet.</p>
+                        </li>
+                        <li>
+                            <p>Multi-nodes selection is supported when upgrading or rebuilding.</p>
+                        </li>
+                        <li>
+                            <p>Enhancement of security, the issue of the dependency library security is modified.</p>
+                        </li>
+                        <li>
+                            <p>Fixed other bugs.</p>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </li>
+        </ul>
+
+        <div class="shadeScrollBar"></div>
+
+    </div>
+
+
+</div>
+<div class="section" id="media">
+    <div class="sectionTop">
+        <i></i>
+        <span id="partnersTitle">Partners</span>
+        <p id="commonText6">Next-Generation Decentralized Application Platform</p>
+    </div>
+    <div class="mediaContainer">
+        <a href="https://www.7234.cn/" target="_blank"></a>
+        <a href="http://www.bitett.com/portal.php" target="_blank"></a>
+        <a href="javascript:;" target="_blank"></a>
+        <a href="https://www.coingogo.com/" target="_blank"></a>
+        <a href="javascript:;" target="_blank"></a>
+        <a href="http://yuejiafund.com/" target="_blank"></a>
+    </div>
+</div>
+<div class="section" id="links">
+    <div class="linksContainer">
+        <div class="linksItems">
+            <span id="linkTitle1">QQ group</span>
+            <ul>
+                <li>
+                    <i></i>
+                    <a id="qqLink1" title="阿希区块链开发交流群" target="_blank"
+                       href="//shang.qq.com/wpa/qunwpa?idkey=c5a37c247db109e6d8822d4e625086b3377c80aa1d06d4f1fd2dca4954b65b48">472708713 (Block chain Devs)</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a id="qqLink2" title="阿希受托人讨论组"
+                       href="//shang.qq.com/wpa/qunwpa?idkey=abb71f73b00c41725de287d047b2dba352efc3a5096b16561bc1a797e2e7f8b6"
+                       target="_blank">565316323 (Delegates Group) </a>
+                </li>
+                <li>
+                    <i></i>
+                    <a id="qqLink3"
+                       href="//shang.qq.com/wpa/qunwpa?idkey=25b2814b584508b10f62d07161a093ee88919cb7d772614c4912c187d62dd47e"
+                       title="Asch生态社区4群" target="_blank">654910113 (Community Group4)</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a id="qqLink4"
+                       href="//shang.qq.com/wpa/qunwpa?idkey=e28be99719d80b6d945e7feb81a27b982990241b285655f69ab447b9b959152d"
+                       title="Asch生态社区5群" target="_blank">605202389 (Community Group5)</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a id="qqLink5" title="CCTime官方1群" target="_blank"
+                       href="//shang.qq.com/wpa/qunwpa?idkey=c03da87d02006f106d7928ee01855cb27a26a0bd2fa7ad5db759c2a0ba452f84">644658047 (CCTime Group1)</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a id="qqLink6" title="CCTime官方2群" target="_blank"
+                       href="//shang.qq.com/wpa/qunwpa?idkey=94a27279e452544dacfe320bfe90ebce8d62c8611ff878c0326a4cba7c559cc2">644658047 (CCTime Group1)</a>
+                </li>
+            </ul>
+        </div>
+        <div class="linksItems">
+            <span id="linkTitle2">Commonly used</span>
+            <ul>
+                <li>
+                    <i></i>
+                    <a href="https://github.com/AschPlatform" target="_blank">GitHub repository</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="https://explorer.asch.io/" target="_blank">Block browser</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="https://mainnet.asch.io/#/login" target="_blank">Mainet Online Wallet</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="http://testnet.asch.io:4096/#/login" target="_blank">Testnet</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="https://github.com/AschPlatform/asch-docs" target="_blank">Documents</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="http://docs.asch.mobi/en/whitepaper/index.html" target="_blank">Whitepaper</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="http://docs.asch.mobi/help/" target="_blank">FAQ</a>
+                </li>
+                <!--<li>-->
+                <!--<i></i>-->
+                <!--<a href="demo.html">demo</a>-->
+                <!--</li>-->
+            </ul>
+        </div>
+        <div class="linksItems">
+            <span id="linkTitle3">Community</span>
+            <ul>
+                <li>
+                    <i></i>
+                    <a href="http://bbs.asch.io" target="_blank">Asch bbs</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="https://medium.com/aschplatform" target="_blank">Blog</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="https://bitcointalk.org/index.php?topic=2176697.msg21831492#msg21831492" target="_blank">Bitcoin
+                        talk</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="https://www.reddit.com/r/Asch_Platform/" target="_blank">Reddit</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="https://www.facebook.com/AschHQ" target="_blank">Facebook</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="https://twitter.com/AschPlatform" target="_blank">Twitter</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="https://asch-platform.slack.com/" target="_blank">Slack</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="https://t.me/joinchat/F5GtMA2hHXXoeuHdiPiooA" target="_blank">Telegram</a>
+                </li>
+            </ul>
+        </div>
+        <div class="linksItems">
+            <span id="linkTitle4">Exchanges</span>
+            <ul>
+                <li>
+                    <i></i>
+                    <a href="http://www.bit-z.com/trade/xas_btc" target="_blank">Bit-z</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="https://www.kucoin.com/#/trade/XAS-BTC" target="_blank">Kucoin</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="https://www.coinegg.com/xas/" target="_blank">Coinegg</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="https://www.coolcoin.com/xas/" target="_blank">Coolcoin</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="https://www.chaoex.com/dealcenter" target="_blank">Chaoex</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="https://www.bcex.ca/trade/xas2cnet" target="_blank">Bcex</a>
+                </li>
+                <li>
+                    <i></i>
+                    <a href="https://www.kex.com/trade/cny_coin.html?tradeId=12&type=1" target="_blank">Kex</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="footerContainer">
+        <div class="footerLeft">
+            <div class="footerWeChat">
+                <p id="footerLink1">WeChat</p>
+                <span></span>
+            </div>
+            <div class="footerWb">
+                <p id="footerLink2">Weibo</p>
+                <span></span>
+            </div>
+        </div>
+        <div class="footerRight">
+            <p id="footerLink3">Email</p>
+            <a href="mailto:@asch.io">
+                <i>Asch</i>
+                <span>service@asch.io</span>
+            </a>
+            <a href="mailto:sky_ranker@asch.io">
+                <i id="footerEmail2">DAPP development</i>
+                <span>sky_ranker@asch.io</span>
+            </a>
+            <a href="mailto:yinxuzhou@asch.io">
+                <i id="footerEmail3">Operation Promotion</i>
+                <span>yinxuzhou@asch.io</span>
+            </a>
+            <a href="mailto:sky_ranker@asch.io">
+                <i id="footerEmail4">Business cooperation</i>
+                <span>sky_ranker@asch.io</span>
+            </a>
+        </div>
+    </div>
+
+</footer>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/swiper-3.4.2.jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.i18n.properties-1.0.9.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/canvas.js"></script>
+<script type="text/javascript" src="js/indexSwitchLanguage.js"></script>
+<script type="text/javascript" src="js/videojs-ie8.min.js"></script>
+<script type="text/javascript" src="js/video.min.js"></script>
+<script type="text/javascript" src="js/videoPaly.js"></script>
+</body>
+</html>

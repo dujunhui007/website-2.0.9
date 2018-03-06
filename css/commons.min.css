@@ -1,0 +1,399 @@
+@media screen and (min-width: 1400px) {
+    ::-webkit-scrollbar {
+        width: 0;
+        height: 0
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .deScroll {
+        min-width: 1200px
+    }
+
+}
+
+/*begin*/
+
+#timeLine .rodemapContainer {
+    overflow-y: scroll;
+}
+
+#timeLine .shadeScrollBar {
+    width: 18px;
+    height: 1000px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: #fff;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    height: 70px;
+    top: 0;
+    background: transparent;
+    /*box-shadow: rgb(204, 204, 204) 0px 0px 5px;*/
+}
+
+nav .navContainer {
+    width: 70%;
+    height: 100%;
+    max-width: 1400px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
+nav .navContainer .navLeft {
+    display: inline-block;
+    width: 100px;
+    margin-top: 21.5px;
+    border-top: 2px solid transparent;
+}
+
+nav .navContainer .navLeft img {
+    width: 100%;
+}
+
+nav .navContainer .navRight {
+    display: inline-block;
+    height: 70px;
+    float: right;
+    position: relative;
+    padding-right: 170px;
+}
+
+nav .navContainer .navRight ul {
+    /*display: inline-block;*/
+}
+
+nav .navContainer .navRight ul li:hover {
+    border-top: 2px solid #f49e14;
+}
+
+nav .navContainer .navRight ul li:hover a {
+    color: #f49e14;
+}
+
+nav .navContainer .navRight ul li {
+    display: inline-block;
+    border-top: 2px solid transparent;
+    /*margin-right: 5px;*/
+}
+
+nav .navContainer .navRight ul li a {
+    display: inline-block;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: #fff;
+    font-family: aschFont;
+    font-size: 18px;
+    padding-right: 6px;
+}
+
+nav .navContainer .navRight ul .navLinksContainer {
+    vertical-align: top;
+    position: relative;
+}
+
+nav .navContainer .navRight ul .navLinksContainer:hover .navLinks {
+    opacity: 1;
+    top: 58px;
+}
+
+nav .navContainer .navRight ul .navLinksContainer .navLinks {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    min-width: 100px;
+    height: 35px;
+    top: 50px;
+    left: 0px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+nav .navContainer .navRight ul .navLinksContainer .navLinks a:hover {
+    background: #e2840a;
+    color: #fff;
+}
+
+nav .navContainer .navRight ul .navLinksContainer .navLinks a {
+    display: block;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #f29214;
+    color: #fff;
+    padding-right: 0px;
+}
+
+nav .navContainer .navRight ul .navLinksContainer .navLinks a:nth-child(2):hover{
+    background: #e2840a;
+}
+
+nav .navContainer .navRight ul .navLinksContainer .navLinks a:nth-child(2){
+    background:#f8a940 ;
+}
+
+nav .navContainer .navRight ul .navLinksContainer:hover .pageStyle{
+    top:76px;
+}
+
+/*switch language begin*/
+
+.switchLanguageBtn {
+    /*display: inline-block;*/
+    position: absolute;
+    top: 18px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.btnContainer {
+    position: relative;
+    width: 120px;
+    height: 34px;
+    /*margin: 50px auto;*/
+    cursor: pointer;
+}
+
+.btnContainer .btn1, .btnContainer .btn2 {
+    /*position: relative;*/
+    width: 120px;
+    height: 34px;
+    /*margin: 2px 0;*/
+    /*padding: 0 10px;*/
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.btnContainer .btn1 {
+    position: absolute;
+    top: 3px;
+    left: 0;
+}
+
+.btnContainer:hover .btn2 {
+    opacity: 1;
+    top: 42px;
+}
+
+.btnContainer:hover .pageBtnStyle {
+    top: 60px;
+}
+
+.btnContainer .btn2:hover {
+    background: #f7bb59;
+}
+
+.btnContainer .btn2 {
+    position: absolute;
+    top: 34px;
+    left: 0;
+    opacity: 0;
+    background: #faaa31;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.btnContainer .btn1 .btnFlag1, .btnContainer .btn2 .btnFlag2 {
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    display: inline-block;
+    width: 30px;
+    height: 34px;
+    line-height: 34px;
+    /* text-align: left; */
+    /* vertical-align: top; */
+}
+
+.btnContainer .btn1 .btnFlag1 img, .btnContainer .btn2 .btnFlag2 img {
+    width: auto;
+    height: 14px;
+}
+
+.btnContainer .btn1 span, .btnContainer .btn2 span {
+    color: #fff;
+    font-size: 16px;
+    font-family: aschFont;
+    /* vertical-align: sub; */
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    vertical-align: top;
+}
+
+.btnContainer:hover .sjx {
+    top: 18px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.sjx {
+    position: absolute;
+    display: inline-block;
+    border-right: 2px solid #fff;
+    border-top: 2px solid #fff;
+    height: 8px;
+    width: 8px;
+    /* margin: 50px auto 0; */
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    border-left: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    right: -15px;
+    top: 14px;
+    box-sizing: border-box;
+}
+
+/*switch language end*/
+
+/*nav end*/
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    padding: 30px 0;
+    box-sizing: border-box;
+    background: #282a2b;
+}
+
+footer .footerContainer {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+footer .footerLeft {
+    width: 40%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between
+}
+
+footer .footerLeft p {
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 20px
+}
+
+footer .footerLeft .footerWeChat p {
+    width: 100%;
+    font-family: aschFont;
+}
+
+footer .footerLeft .footerWeChat span {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url(../images/weChat.png) no-repeat center;
+    background-size: cover
+}
+
+footer .footerLeft .footerWb p {
+    width: 100%;
+    font-family: aschFont;
+}
+
+footer .footerLeft .footerWb span {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url(../images/weibo.png) no-repeat center;
+    background-size: cover
+}
+
+footer .footerRight a:hover span {
+    color: #f1bb50;
+}
+
+footer .footerRight a:hover i {
+    color: #f1bb50;
+}
+
+footer .footerRight a i {
+    color: #cdcdcd;
+    font-size: 14px;
+    font-family: aschFont;
+    line-height: 18px;
+}
+
+footer .footerRight a span {
+    color: #cdcdcd;
+}
+
+footer .footerRight a {
+
+    display: block;
+    width: 330px;
+    overflow: hidden;
+}
+
+footer .footerRight {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 3%
+}
+
+footer .footerRight p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 18px;
+    font-family: aschFont;
+    line-height: 30px;
+}
+
+footer .footerRight span {
+    color: #fff;
+    font-family: aschFont;
+    margin-left: 10px;
+    float: right;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1910px) {
+    /*nav .navContainer .navRight {*/
+    /*position: relative;*/
+    /*width: 72%;*/
+    /*min-width: 900px;*/
+    /*height: 70px;*/
+    /*text-align: right;*/
+    /*display: inline-block;*/
+    /*float: right;*/
+    /*background: 0 0;*/
+    /*padding-right: 260px;*/
+    /*}*/
+    /*nav .navContainer .navRight .equalThan li a {*/
+    /*display: block;*/
+    /*height: 100%;*/
+    /*color: #fff;*/
+    /*font-size: 16px;*/
+    /*padding-right: 8px;*/
+    /*font-family: aschFont;*/
+    /*}*/
+    /*nav .navContainer .navRight .moreThan li a {*/
+    /*display: block;*/
+    /*height: 100%;*/
+    /*color: #000;*/
+    /*font-size: 16px;*/
+    /*padding-right: 8px;*/
+    /*font-family: aschFont;*/
+    /*}*/
+}
+
+

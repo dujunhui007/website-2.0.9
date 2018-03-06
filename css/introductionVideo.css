@@ -1,0 +1,256 @@
+.videoBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/blurImg.jpg") no-repeat center;
+    background-size: cover;
+    z-index: 1016;
+    /*opacity:0.8;*/
+    filter: blur(10x);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    -o-filter: blur(10px);
+    display: none;
+}
+
+.videoBackgroundAnimate1 {
+    -webkit-animation: videoBackgroundAnimate1 0.5s;
+    animation: videoBackgroundAnimate1 0.5s;
+}
+
+.videoBackgroundAnimate2 {
+    -webkit-animation: videoBackgroundAnimate2 .5s;
+    animation: videoBackgroundAnimate2 .5s;
+}
+
+@-webkit-keyframes videoBackgroundAnimate1 {
+    0% {
+        width: 0;
+        height: 0;
+        top: 50%;
+        left: 50%;
+    }
+    100% {
+        top: 0;
+        left: 0;
+        width: calc(100% + 30px);
+        height: calc(100% + 30px);
+    }
+}
+
+@keyframes videoBackgroundAnimate1 {
+    0% {
+        width: 0;
+        height: 0;
+        top: 50%;
+        left: 50%;
+    }
+    100% {
+        top: 0;
+        left: 0;
+        width: calc(100% + 30px);
+        height: calc(100% + 30px);
+    }
+}
+
+@-webkit-keyframes videoBackgroundAnimate2 {
+    0% {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    100% {
+        width: 0;
+        height: 0;
+        top: 50%;
+        left: 50%;
+    }
+}
+
+@keyframes videoBackgroundAnimate2 {
+    0% {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    100% {
+        width: 0;
+        height: 0;
+        top: 50%;
+        left: 50%;
+    }
+}
+
+.m {
+    position: fixed;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*top:0;*/
+    /*left: 0;*/
+    left: calc(50% - 480px);
+    top: calc(50% - 230px);
+    /*padding-top: 50px;*/
+    /*width:1920px;*/
+    /*height:1080px;*/
+    /*width:1344px;*/
+    /*height:756px;*/
+    width: 960px;
+    height: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: calc(50% - 250px);*/
+    /*margin-bottom: auto;*/
+    box-sizing: border-box;
+    z-index: 1017;
+    display: none;
+    border: 6px solid #ffa81c;
+}
+
+.mOpenVideo {
+    -webkit-animation: videoAnimate1 1s;
+    animation: videoAnimate1 1s;
+}
+
+@-webkit-keyframes videoAnimate1 {
+    0% {
+        width: 0;
+        height: 0;
+        left: 50%;
+        top: 50%;
+        opacity: 0;
+    }
+
+    100% {
+        left: calc(50% - 480px);
+        top: calc(50% - 230px);
+        /*padding-top: 50px;*/
+        /*width:1920px;*/
+        /*height:1080px;*/
+        /*width:1344px;*/
+        /*height:756px;*/
+        /*width: 960px;*/
+        /*height: 540px;*/
+        /*width: 100%;*/
+        /*height: 100%;*/
+        /*top: 0;*/
+        /*left: 0;*/
+        opacity: 1;
+    }
+}
+
+@keyframes videoAnimate1 {
+    0% {
+        width: 0;
+        height: 0;
+        left: 50%;
+        top: 50%;
+        opacity: 0;
+    }
+
+    100% {
+        left: calc(50% - 480px);
+        top: calc(50% - 230px);
+        /*padding-top: 50px;*/
+        /*width:1920px;*/
+        /*height:1080px;*/
+        /*width:1344px;*/
+        /*height:756px;*/
+        /*width: 960px;*/
+        /*height: 540px;*/
+        /*width: 100%;*/
+        /*height: 100%;*/
+        /*top: 0;*/
+        /*left: 0;*/
+        opacity: 1;
+    }
+}
+
+.mClosedVideo {
+    -webkit-animation: videoAnimate2 1s;
+    animation: videoAnimate2 1s;
+}
+
+@-webkit-keyframes videoAnimate2 {
+    0% {
+        left: calc(50% - 480px);
+        top: calc(50% - 230px);
+        /*padding-top: 50px;*/
+        /*width:1920px;*/
+        /*height:1080px;*/
+        /*width:1344px;*/
+        /*height:756px;*/
+        width: 960px;
+        height: 540px;
+        opacity: 1;
+    }
+    100% {
+        width: 0;
+        height: 0;
+        left: 50%;
+        top: 50%;
+        border: none;
+        opacity: 0;
+    }
+}
+
+@keyframes videoAnimate2 {
+    0% {
+        left: calc(50% - 480px);
+        top: calc(50% - 230px);
+        width: 960px;
+        height: 540px;
+        opacity: 1;
+    }
+    100% {
+        width: 0;
+        height: 0;
+        left: 50%;
+        top: 50%;
+        border: none;
+        opacity: 0;
+    }
+}
+
+.m video {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.m .closedVideo {
+    width: 30px;
+    height: 30px;
+    display: none;
+    position: fixed;
+    top: calc(50% - 230px);
+    right: calc(50% - 480px);
+    background: url("../images/closed.png") no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    z-index: 1016;
+}
+
+/*.vjs-styles-dimensions .my-video-dimensions {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+
+ .my-video-dimensions {
+    width: 100%;
+    height: 100%;
+}
+
+/*.vjs-styles-defaults .video-js {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+
+ .video-js {
+    width: 100%;
+    height: 100%;
+}

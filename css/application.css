@@ -1,0 +1,851 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    position: relative
+}
+
+@font-face {
+    font-family: aschFont;
+    src: url("../font/Maquette-Light.otf");
+}
+
+/*nav begin */
+nav .navContainer .navRight ul li a{
+    color: #000;
+}
+
+.btnContainer .btn1 span{
+    color: #000;
+}
+
+.btnContainer:hover .sjx {
+    /*top: 14px;*/
+}
+
+.sjx{
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    /*top:18px;*/
+}
+
+/*nav end*/
+
+
+/*switch language begin*/
+
+/*.switchLanguageBtn {*/
+    /*position: absolute;*/
+    /*top: 18px;*/
+    /*right: 40px;*/
+    /*z-index: 9999;*/
+/*}*/
+
+/*.btnContainer {*/
+    /*position: relative;*/
+    /*width: 120px;*/
+    /*height: 34px;*/
+    /*!*margin: 50px auto;*!*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*.btnContainer .btn2:hover {*/
+    /*background: #f7bb59;*/
+/*}*/
+
+/*.btnContainer .btn2 {*/
+    /*background: #faaa31;*/
+/*}*/
+
+/*.btnContainer .btn1, .btnContainer .btn2 {*/
+    /*position: relative;*/
+    /*width: 120px;*/
+    /*height: 100%;*/
+    /*margin: 2px 0;*/
+    /*padding: 0 10px;*/
+    /*box-sizing: border-box;*/
+/*}*/
+
+/*.btnContainer:hover .btn2 {*/
+    /*opacity: 1;*/
+    /*margin-top: 8px;*/
+/*}*/
+
+/*.btnContainer .btn2 {*/
+    /*position: absolute;*/
+    /*top: 100%;*/
+    /*left: 0;*/
+    /*opacity: 0;*/
+    /*-webkit-transition: all 0.5s ease-in-out;*/
+    /*transition: all 0.5s ease-in-out;*/
+/*}*/
+
+/*.btnContainer .btn1 .btnFlag1, .btnContainer .btn2 .btnFlag2 {*/
+    /*position: absolute;*/
+    /*top: 2px;*/
+    /*left: 5px;*/
+    /*display: inline-block;*/
+    /*width: 30px;*/
+    /*height: 34px;*/
+    /*line-height: 34px;*/
+    /*!* text-align: left; *!*/
+    /*!* vertical-align: top; *!*/
+/*}*/
+
+/*.btnContainer .btn1 .btnFlag1 img, .btnContainer .btn2 .btnFlag2 img {*/
+    /*width: auto;*/
+    /*height: 14px;*/
+/*}*/
+
+/*.btnContainer .btn1 span{*/
+    /*color: #000;*/
+/*}*/
+
+/*.btnContainer .btn2 span{*/
+    /*color: #fff;*/
+/*}*/
+
+/*.btnContainer .btn1 span, .btnContainer .btn2 span {*/
+
+    /*font-size: 16px;*/
+    /*font-family: aschFont;*/
+    /*!* vertical-align: sub; *!*/
+    /*display: inline-block;*/
+    /*height: 34px;*/
+    /*line-height: 34px;*/
+    /*vertical-align: top;*/
+/*}*/
+
+/*.btnContainer:hover .sjx {*/
+    /*top: 15px;*/
+    /*transform: rotate(-45deg);*/
+    /*-webkit-transform: rotate(-45deg);*/
+/*}*/
+
+/*.sjx {*/
+    /*display: inline-block;*/
+    /*border-right: 2px solid #000;*/
+    /*border-top: 2px solid #000;*/
+    /*height: 6px;*/
+    /*width: 6px;*/
+    /*!* margin: 50px auto 0; *!*/
+    /*transform: rotate(135deg);*/
+    /*-webkit-transform: rotate(135deg);*/
+    /*border-left: 2px solid transparent;*/
+    /*border-bottom: 2px solid transparent;*/
+    /*-webkit-transition: all 0.5s ease-in-out;*/
+    /*transition: all 0.5s ease-in-out;*/
+    /*cursor: pointer;*/
+    /*position: absolute;*/
+    /*right: -20px;*/
+    /*top: 10px;*/
+/*}*/
+
+/*@media screen and (max-width: 500px) {*/
+/*.switchLanguageBtn {*/
+/*position: fixed;*/
+/*top: 20px;*/
+/*right: 20px;*/
+/*z-index: 9999;*/
+/*}*/
+/*}*/
+
+/*switch language end*/
+
+/*nav {*/
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*height: 70px;*/
+    /*line-height: 70px;*/
+    /*background: 0 0;*/
+    /*padding: 0 15%;*/
+    /*box-sizing: border-box;*/
+    /*z-index: 1015;*/
+    /*margin: 0 auto*/
+/*}*/
+
+/*nav .navContainer {*/
+    /*width: 100%;*/
+    /*min-width: 1100px*/
+/*}*/
+
+/*nav .navContainer .navLeft {*/
+    /*display: inline-block;*/
+    /*height: 50px;*/
+    /*margin-top: 10px;*/
+    /*margin-left: 20px;*/
+
+/*}*/
+
+/*nav .navContainer .navLeft span {*/
+    /*display: block*/
+/*}*/
+
+/*nav .navContainer .navLeft .navLogo {*/
+    /*width: 100px;*/
+    /*height: 25px;*/
+    /*margin-top: 12px*/
+/*}*/
+
+/*nav .navContainer .navLeft .replaceLogoOne {*/
+    /*background: url(../images/aschLogo1.png) no-repeat center;*/
+    /*background-size: cover*/
+/*}*/
+
+/*nav .navContainer .navLeft .replaceLogoTwo {*/
+    /*background: url(../images/aschLogo1.png) no-repeat center;*/
+    /*background-size: cover*/
+/*}*/
+
+/*nav .navContainer .navRight {*/
+    /*position: relative;*/
+    /*width: 90%;*/
+    /*min-width: 900px;*/
+    /*height: 70px;*/
+    /*text-align: right;*/
+    /*display: inline-block;*/
+    /*float: right;*/
+    /*background: 0 0;*/
+    /*!*padding-right: 100px;*!*/
+/*}*/
+
+/*nav .navRight .switchLanguage {*/
+    /*position: absolute;*/
+    /*left: -20px;*/
+    /*display: none;*/
+/*}*/
+
+/*nav .navRight .switchLanguage button {*/
+    /*width: 60px;*/
+    /*height: 25px;*/
+    /*vertical-align: middle;*/
+/*}*/
+
+/*nav .navContainer .navRight .equalThan {*/
+    /*height: 100%;*/
+    /*font-size: 0;*/
+    /*display: inline-block;*/
+    /*padding-right: 168px;*/
+/*}*/
+
+/*nav .navContainer .navRight .equalThan li:hover {*/
+    /*border-top: 2px solid #ffa81c*/
+/*}*/
+
+/*nav .navContainer .navRight .equalThan li:hover a {*/
+    /*color: #ffa81c*/
+/*}*/
+
+/*nav .navContainer .navRight .equalThan li {*/
+    /*height: 68px;*/
+    /*line-height: 68px;*/
+    /*text-align: center;*/
+    /*display: inline-block;*/
+    /*cursor: pointer;*/
+    /*font-size: 16px;*/
+    /*border-top: 2px solid transparent*/
+/*}*/
+
+/*nav .navContainer .navRight .equalThan li a {*/
+    /*display: block;*/
+    /*height: 100%;*/
+    /*color: #000;*/
+    /*font-size: 18px;*/
+    /*font-family: aschFont;*/
+    /*padding-right: 20px*/
+/*}*/
+
+/*nav .navContainer .navRight .moreThan {*/
+    /*height: 100%;*/
+    /*font-size: 0;*/
+    /*display: inline-block;*/
+    /*padding-right: 168px;*/
+/*}*/
+
+/*nav .navContainer .navRight .moreThan li:hover {*/
+    /*border-top: 2px solid #ffa81c*/
+/*}*/
+
+/*nav .navContainer .navRight .moreThan li:hover a {*/
+    /*color: #ffa81c*/
+/*}*/
+
+/*nav .navContainer .navRight .moreThan li {*/
+    /*height: 68px;*/
+    /*line-height: 68px;*/
+    /*text-align: center;*/
+    /*display: inline-block;*/
+    /*cursor: pointer;*/
+    /*font-size: 16px;*/
+    /*border-top: 2px solid transparent*/
+/*}*/
+
+/*nav .navContainer .navRight .moreThan li a {*/
+    /*display: block;*/
+    /*height: 100%;*/
+    /*color: #000;*/
+    /*font-size: 18px;*/
+    /*font-family: aschFont;*/
+    /*padding-right: 20px;*/
+/*}*/
+
+/*nav .navContainer .navRight .downloadWhitePaper {*/
+    /*position: absolute;*/
+    /*top: 26px;*/
+    /*right: 0;*/
+    /*border: none;*/
+/*}*/
+
+/*nav .navContainer .navRight .downloadWhitePaperOne:hover {*/
+    /*background: #23559e;*/
+/*}*/
+
+/*nav .navContainer .navRight .downloadWhitePaperOne {*/
+    /*width: 120px;*/
+    /*height: 20px;*/
+    /*line-height: 20px;*/
+    /*padding: 0 10px;*/
+    /*border-radius: 20px;*/
+    /*font-size: 14px;*/
+    /*margin-left: 50px;*/
+    /*color: #fff;*/
+    /*background: #567fdc;*/
+/*}*/
+
+/*nav .navContainer .navRight .downloadWhitePaperTwo:hover {*/
+    /*background: #050572;*/
+/*}*/
+
+/*nav .navContainer .navRight .downloadWhitePaperTwo {*/
+    /*width: 120px;*/
+    /*height: 20px;*/
+    /*line-height: 20px;*/
+    /*padding: 0 10px;*/
+    /*border-radius: 20px;*/
+    /*font-size: 14px;*/
+    /*margin-left: 20px;*/
+    /*color: #fff;*/
+    /*background: #1c49ae;*/
+/*}*/
+
+/*@media screen and (max-width: 1910px) {*/
+    /*nav .navContainer .navRight {*/
+        /*padding-right: 70px*/
+        /*!*margin-right: 100px;*!*/
+    /*}*/
+
+    /*nav .navContainer .navRight .downloadWhitePaperOne {*/
+        /*width: 120px;*/
+        /*height: 20px;*/
+        /*padding: 0 10px;*/
+        /*border-radius: 20px;*/
+        /*font-size: 14px;*/
+        /*margin-left: 10px;*/
+        /*color: #fff;*/
+        /*background: #567fdc;*/
+        /*border: none;*/
+    /*}*/
+/*}*/
+
+.applicationContainer {
+    width: 100%;
+
+}
+
+.applicationContainer .applicationTop {
+    width: 100%;
+    height: 400px;
+    /*line-height: 300px;*/
+    /*background: #fafaf9;*/
+    box-shadow: 0 0 20px #ccc;
+    /*padding-top: 70px;*/
+    margin-top: 70px;
+    box-sizing: border-box;
+    background: url("../images/allpicationTopBackground.jpg") no-repeat center;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1910px) {
+    .applicationContainer .applicationTop {
+        width: 100%;
+        height: 300px;
+        /*line-height: 300px;*/
+        /*background: #fafaf9;*/
+        box-shadow: 0 0 20px #ccc;
+        /*padding-top: 70px;*/
+        margin-top: 70px;
+        box-sizing: border-box;
+        background: url("../images/allpicationTopBackground.jpg") no-repeat center;
+        background-size: cover;
+    }
+}
+
+.applicationContainer .applicationTop p {
+    width: 100%;
+    font-size: 48px;
+    text-align: center;
+    color: #313131;
+    height: 100px;
+    line-height: 100px;
+    /*background: red;*/
+}
+
+.applicationContainer .applicationCenter {
+    padding-top: 10px;
+    padding-bottom: 100px;
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1400px;
+     min-width: 1200px;
+    box-sizing: border-box;
+    /* background: red; */
+}
+
+.applicationContainer .applicationCenter .applicationCenterTitle {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.applicationContainer .applicationCenter .applicationCenterTitle .toHome {
+    /*opacity: 0.7;*/
+    color: #000;
+    font-family: aschFont;
+}
+
+.applicationContainer .applicationCenter .applicationCenterTitle .toCCtime {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    color: #000;
+    font-family: aschFont;
+}
+
+.applicationContainer .applicationCenter .applicationContent {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #ccc;
+    border-radius: 5px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentLeft {
+    width: 650px;
+    position: relative;
+    overflow: hidden;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentLeft img {
+    width: 100%;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentLeft span {
+    width: 150px;
+    height: 25px;
+    line-height: 25px;
+    top: 15px;
+    left: -40px;
+    background: #fc5f45;
+    position: absolute;
+    color: #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    text-align: center;
+    z-index: 3;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight {
+    width: 600px;
+    position: relative;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight i.cctimeWatermark {
+    position: absolute;
+    display: block;
+    width: 130px;
+    height: 87px;
+    right: 10px;
+    top: -21px;
+    background: url("../images/watermark1.png") no-repeat center;
+    background-size: cover;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight i.koumeiWatermark {
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 73px;
+    right: 10px;
+    top: -21px;
+    background: url("../images/watermark2.png") no-repeat center;
+    background-size: cover;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight i.bangWatermark {
+    position: absolute;
+    display: block;
+    width: 111px;
+    height: 78px;
+    right: 10px;
+    top: -21px;
+    background: url("../images/watermark3.png") no-repeat center;
+    background-size: cover;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight i.helloWatermark {
+    position: absolute;
+    display: block;
+    width: 113px;
+    height: 90px;
+    right: 10px;
+    top: -21px;
+    background: url("../images/watermark4.png") no-repeat center;
+    background-size: cover;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight i.dreamWatermark {
+    position: absolute;
+    display: block;
+    width: 113px;
+    height: 81px;
+    right: 10px;
+    top: -21px;
+    background: url("../images/watermark5.png") no-repeat center;
+    background-size: cover;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight i.subSpaceWatermark {
+    position: absolute;
+    display: block;
+    width: 148px;
+    height: 75px;
+    right: 10px;
+    top: -21px;
+    background: url("../images/watermark6.png") no-repeat center;
+    background-size: cover;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight i.dogWatermark {
+    position: absolute;
+    display: block;
+    width: 105px;
+    height: 88px;
+    right: 10px;
+    top: -21px;
+    background: url("../images/watermark7.png") no-repeat center;
+    background-size: cover;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight i.BlockPetsWatermark {
+    position: absolute;
+    display: block;
+    width: 105px;
+    height: 105px;
+    right: 10px;
+    top: -40px;
+    background: url(../images/BlockPetsWatermark.png) no-repeat center;
+    background-size: cover;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight .contentRightTitle {
+    display: block;
+    width: 96%;
+    text-align: left;
+    color: #282828;
+    font-size: 30px;
+    font-family: aschFont;
+    line-height: 75px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    font-weight: 500;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight .applicationDescribe {
+    /*padding-right: 30px;*/
+    line-height: 24px;
+    color: #000;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    font-family: aschFont;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight .aschSide {
+    width: 100%;
+    padding-right: 30px;
+    box-sizing: border-box;
+    /*background: red;*/
+    margin: 30px 0 20px 0;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight .aschSide li {
+    position: relative;
+    width: 32%;
+    display: inline-block;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight .aschSide li p:nth-child(1) {
+    color: #282828;
+    font-size: 16px;
+    font-family: aschFont;
+    line-height: 22px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight .aschSide li p:nth-child(2) {
+    color: #848484;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: aschFont;
+
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight .aschSide li:nth-child(1) p{
+    text-align: left;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight .aschSide li:nth-child(3) p{
+    text-align: right;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight .aschSide li span {
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 80%;
+    background: #ccc;
+    right: 0px;
+    top: 10%;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight .applicationLinks {
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    margin-top: 55px;
+    /*display: -webkit-flex;*/
+    /*display: flex;*/
+    /*-webkit-justify-content: space-between;*/
+    /*justify-content: space-between;*/
+    padding-right: 40px;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight .applicationLinks a:nth-child(2) {
+    margin-left: 20px;
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight .applicationLinks a:hover {
+    background: linear-gradient(to bottom, #febb50, #e18e08);
+}
+
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight .applicationLinks a {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: linear-gradient(to bottom, #febb50, #feb949);
+    border-radius: 3px;
+    color: #fff;
+    font-size: 20px;
+    font-family: aschFont;
+}
+
+.applicationContainer .applicationCenter .applicationIntroduction {
+    width: 100%;
+    padding: 60px 40px;
+    box-shadow: 0 0 20px #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+
+.applicationContainer .applicationCenter .applicationIntroduction span {
+    display: block;
+    font-size: 30px;
+    color: #000;
+    font-family: aschFont;
+    margin-bottom: 20px;
+}
+
+.applicationContainer .applicationCenter .applicationIntroduction p {
+    display: block;
+    font-size: 18px;
+    line-height: 27px;
+    color: #848484;
+    font-family: aschFont;
+    margin-bottom: 20px;
+}
+
+/*footer {*/
+    /*position: relative;*/
+    /*width: 100%;*/
+    /*height: 200px;*/
+    /*padding: 30px 0;*/
+    /*box-sizing: border-box;*/
+    /*background: #282a2b;*/
+/*}*/
+
+/*footer .footerContainer {*/
+    /*position: relative;*/
+    /*width: 70%;*/
+    /*margin: 0 auto;*/
+    /*max-width: 1400px;*/
+/*}*/
+
+/*footer .footerLeft {*/
+    /*width: 40%;*/
+    /*display: -webkit-flex;*/
+    /*display: flex;*/
+    /*-webkit-justify-content: space-between;*/
+    /*justify-content: space-between*/
+/*}*/
+
+/*footer .footerLeft p {*/
+    /*color: #fff;*/
+    /*height: 30px;*/
+    /*line-height: 30px;*/
+    /*font-size: 18px;*/
+    /*text-align: left;*/
+    /*margin-bottom: 20px*/
+/*}*/
+
+/*footer .footerLeft .footerWeChat p {*/
+    /*width: 100%;*/
+    /*font-family: aschFont;*/
+/*}*/
+
+/*footer .footerLeft .footerWeChat span {*/
+    /*display: block;*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*background: url(../images/weChat.png) no-repeat center;*/
+    /*background-size: cover*/
+/*}*/
+
+/*footer .footerLeft .footerWb p {*/
+    /*width: 100%;*/
+    /*font-family: aschFont;*/
+/*}*/
+
+/*footer .footerLeft .footerWb span {*/
+    /*display: block;*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*background: url(../images/weibo.png) no-repeat center;*/
+    /*background-size: cover*/
+/*}*/
+
+/*!*footer .footerRight a:nth-child(2):hover i {*!*/
+/*!*display: inline-block;*!*/
+/*!*width: 14px;*!*/
+/*!*height: 10px;*!*/
+/*!*background: url(../images/emailIcon2.png) no-repeat center;*!*/
+/*!*background-size: cover;*!*/
+/*!*vertical-align: baseline;*!*/
+/*!*margin-right: 10px*!*/
+/*!*}*!*/
+
+/*footer .footerRight a:hover span {*/
+    /*color: #ffa81c*/
+/*}*/
+
+/*footer .footerRight a:hover i {*/
+    /*color: #ffa81c*/
+/*}*/
+
+/*footer .footerRight a i {*/
+    /*color: #fff*/
+/*}*/
+
+
+/*footer .footerRight a{*/
+    /*display: block;*/
+    /*width: 330px;*/
+    /*overflow: hidden;*/
+/*}*/
+
+/*footer .footerRight {*/
+    /*display: inline-block;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*right: 3%*/
+/*}*/
+
+/*footer .footerRight p {*/
+    /*color: #fff;*/
+    /*font-size: 18px;*/
+    /*margin-bottom: 20px;*/
+    /*font-family: aschFont;*/
+/*}*/
+
+/*footer .footerRight span {*/
+    /*color: #fff;*/
+    /*font-family: aschFont;*/
+    /*margin-left: 10px;*/
+    /*float: right;*/
+/*}*/
+
+
+@media screen and (max-width: 1910px){
+    .applicationContainer .applicationCenter .applicationContent .applicationContentLeft{
+        width: 600px;
+    }
+    .applicationContainer .applicationCenter .applicationContent .applicationContentRight{
+        width: 520px;
+    }
+    /*nav .navContainer .navLeft{*/
+        /*margin-left:-130px;*/
+    /*}*/
+    /*nav .navContainer .navRight .equalThan li a {*/
+        /*display: block;*/
+        /*height: 100%;*/
+        /*color: #000;*/
+        /*font-size: 16px;*/
+        /*font-family: aschFont;*/
+        /*padding-right: 11px;*/
+    /*}*/
+
+    /*.switchLanguageBtn {*/
+        /*position: absolute;*/
+        /*top: 18px;*/
+        /*right: 54px;*/
+        /*z-index: 9999;*/
+    /*}*/
+
+    /*nav .navContainer .navRight .moreThan li a {*/
+        /*display: block;*/
+        /*height: 100%;*/
+        /*color: #000;*/
+        /*font-size: 16px;*/
+        /*font-family: aschFont;*/
+        /*padding-right: 11px;*/
+    /*}*/
+
+    /*nav .navContainer .navRight {*/
+        /*padding-right: 40px;*/
+    /*}*/
+
+
+    /*nav .navContainer .navRight .moreThan {*/
+        /*height: 100%;*/
+        /*font-size: 0;*/
+        /*display: inline-block;*/
+        /*padding-right: 150px;*/
+    /*}*/
+
+    /*nav .navContainer .navRight .equalThan{*/
+        /*padding-right: 150px;*/
+    /*}*/
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "dappName": "CCTime",
+    "dappImgUrl": "images/cctimexiao.jpg",
+    "dappWatermarkUrl": "images/cctimeWatermark.png",
+    "description":
+      "CCTime是以传播价值信息理念为核心，基于阿希（Asch）侧链技术开发的分布式社会新闻分享与交流平台。",
+    "link": "查看详情"
+  },
+  {
+    "dappName": "孔明屋",
+    "dappImgUrl": "images/kmwbg.png",
+    "dappWatermarkUrl": "images/kmcWatermark.png",
+    "description":
+      "Koumei Cottage， 简称 KMC，中文名孔明屋，是基于阿希平台开发的去中心化的预测市场。",
+    "link": "查看详情"
+  },
+  {
+    "dappName": "帮呗",
+    "dappImgUrl": "images/bangbg.jpg",
+    "dappWatermarkUrl": "images/bangWatermark.png",
+    "description":
+      "帮呗是一款基于Asch链的具有用户线上发布任务以及用户线上领取任务、用户聊天、浏览新闻等功能的轻社交类、新闻类、平台类移动端应用。",
+    "link": "查看详情"
+  },
+  {
+    "dappName": "数字宠物",
+    "dappImgUrl": "images/BlockPetsxiao.png",
+    "dappWatermarkUrl": "images/BlockPetsWatermark.png",
+    "description":
+      "BlockPets是基于阿希（Asch）侧链技术开发的区块链游戏。让用户真正拥有游戏的虚拟价值。",
+    "link": "查看详情"
+  },
+  {
+    "dappName": "Hello Kimi",
+    "dappImgUrl": "images/hellokimiBg1.jpg",
+    "dappWatermarkUrl": "images/helloWatermark.png",
+    "description":
+      "Hello Kimi是国内首款基于区块链技术（Asch侧链）开发的云宠物社交休闲游戏应用平台。",
+    "link": "查看详情"
+  },
+  {
+    "dappName": "虚拟地球",
+    "dappImgUrl": "images/dreamWorldx.png",
+    "dappWatermarkUrl": "images/watermark5.png",
+    "description":
+      "虚拟地球是一个以地球世界为原型的分布式共享3D虚拟空间平台，一个最保护隐私的广泛人群参与的互动的社交平台，是依托VR、AR的数字物化世界体验平台，是数字资产增值保值的平台。",
+    "link": "查看详情"
+  },
+  {
+    "dappName": "次空间",
+    "dappImgUrl": "images/subSpacex.png",
+    "dappWatermarkUrl": "images/watermark6.png",
+    "description":
+      "次空间是以游戏价值为依托，以玩家自治为核心，基于阿希(asch)侧链技术开发的分布式智能游戏平台。",
+    "link": "查看详情"
+  },
+  {
+    "dappName": "吉祥狗",
+    "dappImgUrl": "images/propitiousDogx.png",
+    "dappWatermarkUrl": "images/watermark7.png",
+    "description":
+      "辞别2017鸡年，喜迎2018狗年。在中国最重要的传统节日春节到来之际，在阿希链平台开发的，国内首个基于区块链技术的加密生肖收藏应用《吉祥狗》将隆重发布。",
+    "link": "查看详情"
+  }
+]

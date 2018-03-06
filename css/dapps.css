@@ -1,0 +1,233 @@
+@font-face {
+    font-family: aschFont;
+    src: url("../font/Maquette-Light.otf");
+}
+
+.dappsContainerTop{
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 0 20px #ccc;
+    margin-top: 70px;
+    box-sizing: border-box;
+    background: url(../images/allpicationTopBackground.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.dappsContainer{
+    width: 70%;
+    /*height: 1000px;*/
+    /*background: lightskyblue;*/
+    max-width: 1400px;
+    margin: 30px auto 100px auto;
+    z-index: 1;
+}
+
+.dappsContainer .dappsContainerTitle{
+    width: 100%;
+}
+
+.dappsContainer .dappsContainerTitle p{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: left;
+    color: #363636;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: aschFont;
+}
+
+
+
+.dappsContainer ul{
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.dappsContainer ul li{
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.dappsContainer ul li .dappContainer{
+    width: 100%;
+}
+
+.dappsContainer ul li .dappContainer .dappContainerLeft{
+    width: 30%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dappsContainer ul li .dappContainer .dappContainerLeft img{
+    width:100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+
+.dappsContainer ul li .dappContainer .dappContainerRight{
+    display: inline-block;
+    width: 67%;
+    height: 100%;
+    vertical-align: top;
+    padding-left: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightTitle{
+    width: 100%;
+    height: 26px;
+    line-height: 26px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: aschFont;
+}
+
+.dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightContainer{
+    width: 60%;
+    display: inline-block;
+    /*position: relative;*/
+}
+
+.dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightContainer .dappContentLeft{
+    width:100%;
+}
+
+.dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightContainer .dappContentLeft p{
+    height: 24px;
+    line-height: 24px;
+    color: #7d7d7d;
+    font-size: 16px;
+    margin-top: 25px;
+    font-family: aschFont;
+}
+
+.dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightContainer .dappContentLeft a:hover{
+    background: #fcb958;
+}
+
+.dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightContainer .dappContentLeft a{
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    left: calc(30% + 20px);
+    bottom: 20px;
+    background: #f49e14;
+    border-radius: 18px;
+    color: #fff;
+    font-family: aschFont;
+}
+
+.dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightContainer .dappContentLine{
+    position: absolute;
+    display: inline-block;
+    width: 1px;
+    height: 180px;
+    background: #dfdfdf;
+    right: 27%;
+    top: 70px;
+}
+
+.dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightFeature{
+    width: 38%;
+    display: inline-block;
+    padding: 25px 0 0 50px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightFeature i{
+    display: inline-block;
+    width: 24px;
+    vertical-align: top;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightFeature i img{
+    width: 100%;
+}
+
+.dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightFeature .dappsContentTestContainer{
+    display: inline-block;
+}
+
+.dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightFeature .dappsContentTestContainer p{
+    display: block;
+    /*width: 84%;*/
+    font-size: 14px;
+    color: #7d7d7d;
+    line-height: 22px;
+    font-family: aschFont;
+}
+
+@media screen and (max-width: 1910px){
+    .dappsContainerTop{
+        width: 100%;
+        height: 300px;
+    }
+
+    .dappsContainer{
+        width: 80%;
+    }
+
+    .dappsContainer ul li .dappContainer .dappContainerRight{
+        padding-top: 10px;
+    }
+
+    .dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightContainer .dappContentLeft p{
+        margin-top: 10px;
+        line-height: 22px;
+    }
+    .dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightContainer .dappContentLeft a{
+        position: absolute;
+        cursor: pointer;
+        display: block;
+        width: 110px;
+        height: 30px;
+        line-height: 32px;
+        text-align: center;
+        left: calc(30% + 20px);
+        bottom: 10px;
+        background: #f49e14;
+        border-radius: 18px;
+        color: #fff;
+    }
+
+    .dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightContainer .dappContentLine{
+        position: absolute;
+        display: inline-block;
+        width: 1px;
+        height: 150px;
+        background: #dfdfdf;
+        right: 27%;
+        top: 50px;
+    }
+
+    .dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightFeature{
+        padding: 10px 0 0 50px;
+    }
+
+    .dappsContainer ul li .dappContainer .dappContainerRight .dappContainerRightFeature p{
+        /*width: 80%;*/
+    }
+
+    .dappsContainer ul li:nth-child(5) .dappContainer .dappContainerRight .dappContainerRightContainer .dappContentLeft p{
+        margin-top: 5px;
+        line-height: 22px;
+    }
+
+    .dappsContainer ul li:nth-child(7) .dappContainer .dappContainerRight .dappContainerRightContainer .dappContentLeft p{
+        margin-top: 5px;
+        line-height: 18px;
+    }
+
+}

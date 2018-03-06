@@ -1,0 +1,565 @@
+[
+  {
+    "year": "2016",
+    "monthDay": "1月1日",
+    "title": "Asch项目立项启动",
+    "particular": [
+      "Asch项目立项启动。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "3月1日",
+    "title": "分析DPoS算法的漏洞",
+    "particular": [
+      "分析了DPOS算法的漏洞并且模拟了一个简单的攻击的方法，然后实现了一个简化的PBFT算法模型试图去修复该漏洞（阿希共识协议算法原型）。https://github.com/sqfasd/dpos-pbft/"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "3月21日",
+    "title": "发布《Lisk沙箱漏洞分析及解决方案》文章",
+    "particular": [
+      "发布《Lisk沙箱漏洞分析及解决方案》文章。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "5月1日",
+    "title": "区块宝成立",
+    "particular": [
+      "区块宝成立。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "6月5日",
+    "title": "在git.oschina.net上初始化Asch代码库",
+    "particular": [
+      "在git.oschina.net上初始化Asch代码库。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "6月",
+    "title": "实现了完整版dpos+pbft的算法",
+    "particular": [
+      "在正式的产品中实现了完整版dpos+pbft的算法，并且部署了10台机器进行了测试。测试的结果在安全性方面完全符合预期，即经过频繁的重启、不按常规的广播区块、少数受托人联合作弊的情况下，整个系统依然不会分叉（AC0.5）。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "7月13日",
+    "title": "发布Asch 0.9.1版本",
+    "particular": [
+      "发布Asch 0.9.1版本。公测正式开始。广大受托人开始参与测试。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "7月17日",
+    "title": "发布Asch 0.9.2版本",
+    "particular": [
+      "发布Asch 0.9.2版本。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "8月2日",
+    "title": "发布Asch 0.9.3版本",
+    "particular": [
+      "发布Asch 0.9.3版本。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "8月3日",
+    "title": "发布Asch 0.9.4版本",
+    "particular": [
+      "发布Asch 0.9.4版本。产品趋于稳定。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "8月11日",
+    "title": "升级共识算法到AC1.0",
+    "particular": [
+      "升级共识算法到AC1.0。AC0.5在性能方面，不太理想，在没有任何交易的情况下，网路流量的峰值(广播区块的瞬间)达到了1.5Mbps。 其实这个流量也不算离谱，为了安全性，付出一些带宽的代价也算合理，但我们认为还有很大的优化空间，而且asch作为一个开发平台，平台底层的效率和稳定性是很重要的，带宽方面的优化是很有必要的，我们立刻着手去做了。截止到8月9号，系统已升级到0.9.5版本，在49个节点组成的testnet中，带宽的峰值在600kbps左右。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "8月16日",
+    "title": "Asch mainnet 正式启动",
+    "particular": [
+      "Asch mainnet 正式启动。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "9月1日",
+    "title": "Asch产品相关源码正式开源",
+    "particular": [
+      "Asch产品相关源码正式开源，代码以及相关文档都存放在https://github.com/sqfasd/"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "9月8日",
+    "title": "发布1.0.1版本",
+    "particular": [
+      "发布1.0.1版本。",
+      "轻钱包正式上线。",
+      "修复未确认交易问题。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "9月15日",
+    "title": "发布1.1.0版本",
+    "particular": [
+      "修复多个dapp同时运行的bug。",
+      "增加前端dapp页面展示。",
+      "增加区块生产状态展示。",
+      "aschd脚本增加启动区块生产的命令。",
+      "更新dapp类型。",
+      "修复getdelegates在某些条件下的崩溃bug。",
+      "修复dapp安装和卸载过程中的bug。",
+      "增加top account查询接口。",
+      "修复重启时有很大几率出现reindex的bug。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "9月",
+    "title": " XAS上线聚币网",
+    "particular": [
+      "XAS上线聚币网。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "9月30日",
+    "title": "发布1.1.1版本",
+    "particular": [
+      "修复局域网环境下同步的bug",
+      "增加版本兼容性检测，拒绝接受不兼容的旧版本节点的连接"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "10月21日",
+    "title": "发布1.1.2版本 ",
+    "particular": [
+      "支持i18n。",
+      "处理交易回滚导致的同步卡主问题。",
+      "修复dapp数据库清理不干净的问题。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "10月26日",
+    "title": "发布1.1.3版本",
+    "particular": [
+      "修复交易延展性问题。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "10月26日",
+    "title": "发布1.1.4版本",
+    "particular": [
+      "修复request@2.76.0导致的内存溢出问题。",
+      "用特定版本的node模块做为Asch依赖。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "10月",
+    "title": "XAS上线BTCBOX.COM",
+    "particular": [
+      "XAS上线BTCBOX.COM（日本国际交易所，已退市）。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "10月",
+    "title": "与北京金融云实验室达成战略合作",
+    "particular": [
+      "与北京金融云实验室达成战略合作，开展存证业务（定制版Asch）。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "11月10日",
+    "title": "发布1.1.5版本",
+    "particular": [
+      "修复backwards tick引起的卡块问题。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "11月22日",
+    "title": "受日本梦真控股邀请进行企业区块链技术培训",
+    "particular": [
+      "受日本梦真控股邀请进行企业区块链技术培训。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "11月25日",
+    "title": "张寿松在WOT2016大数据技术峰会做演讲",
+    "particular": [
+      "张寿松在WOT2016大数据技术峰会做“基于侧链技术的区块链应用平台”主题演讲。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "12月",
+    "title": "与日本电讯公司达成业务合作，发行数字资产",
+    "particular": [
+      "与日本电讯公司达成业务合作，发行数字资产。"
+    ]
+  },
+  {
+    "year": "2016",
+    "monthDay": "12月20日",
+    "title": "Asch生态社区绿皮书公布",
+    "particular": [
+      "Asch生态社区绿皮书公布。此后一周内选举志愿者协会、受托人协会、开发者协会的会长与副会长。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "1月18日",
+    "title": "发布1.2.1版本",
+    "particular": [
+      "发布1.2.1版本。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "2月17日",
+    "title": "发布1.2.2版本",
+    "particular": [
+      "发布1.2.2版本。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "2月26日",
+    "title": "发布1.2.3版本",
+    "particular": [
+      "增加简单存储功能（中金云定制）。",
+      "增加用户发行资产功能（UIA）。",
+      "交易编号与区块区块编号改为32字节hex格式，旧数据不受影响。",
+      "账户地址改为base58check编码，新老账号可以并存。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "2月26日",
+    "title": "发布1.2.4版本",
+    "particular": [
+      "在1700000块后激活base58check格式的地址。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "3月1日",
+    "title": "发布1.2.6版本",
+    "particular": [
+      "发布1.2.6版本。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "3月1日",
+    "title": "Asch mainnet 1.2版本正式激活",
+    "particular": [
+      "新增存储功能接口。",
+      "新增用户发行资产接口 。",
+      "web图形界面大调整（优化）。",
+      "交易编号与区块区块编号改为32字节hex格式，旧数据不受影响。",
+      "新旧数据共存。",
+      "账户地址改为base58check编码，新老账号可以并存。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "3月5日",
+    "title": "发布1.2.7版本",
+    "particular": [
+      "修复前端交易提交的问题。",
+      "修复弹出对话框展示问题。",
+      "轻钱包允许用户自行选择节点。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "4月7日",
+    "title": "张寿松在第二界中国金融交易技术大会上做“Asch2.0-以‘不变’应‘万变’”主题演讲",
+    "particular": [
+      "张寿松在第二界中国金融交易技术大会上做“Asch2.0-以‘不变’应‘万变’”主题演讲。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "5月8日",
+    "title": " XAS首次进入coinmarketcap.com排行前100名",
+    "particular": [
+      " XAS首次进入coinmarketcap.com排行前100名。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "5月14日",
+    "title": "Asch参加首届中国区块链开发大赛",
+    "particular": [
+      "Asch参加首届中国区块链开发大赛。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "6月5日",
+    "title": "Asch移动端钱包Android版和M版正式发布",
+    "particular": [
+      "Asch移动端钱包Android版和M版正式发布。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "6月18日",
+    "title": "Asch 1.3版本开发完成，进入内测阶段",
+    "particular": [
+      "Asch 1.3版本开发完成，进入内测阶段。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "6月19日",
+    "title": "XAS首次进入coinmarketcap.com排行前50名",
+    "particular": [
+      "XAS首次进入coinmarketcap.com排行前50名。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "6月20日",
+    "title": "XAS上线BTCBOX.COM",
+    "particular": [
+      "XAS同时上线币交所（coinvc.com）和币多宝（biduobao.com）两个交易平台。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "7月18日",
+    "title": "发布1.3.0版本",
+    "particular": [
+      "发布1.3.0版本。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "7月25日",
+    "title": "单青峰应邀参加贵阳区块链行业生态体系建设研讨会",
+    "particular": [
+      "单青峰应邀参加贵阳区块链行业生态体系建设研讨会。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "8月3日",
+    "title": "ASCH加入浙江省区块链技术应用协会",
+    "particular": [
+      "ASCH正式加入浙江省区块链技术应用协会，成为协会的正式会员单位。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "8月6日",
+    "title": "中国区块链极客高峰论坛：Asch创始人单青峰侧链技术与区块链2.5",
+    "particular": [
+      "中国区块链极客高峰论坛：Asch创始人单青峰侧链技术与区块链2.5。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "8月7日",
+    "title": "阿希（Asch）社区发布了其链下第一个DAPP示范型应用CCTime以及CCTime项目白皮书",
+    "particular": [
+      "阿希（Asch）社区发布了其链下第一个DAPP示范型应用CCTime以及CCTime项目白皮书。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "8月10日",
+    "title": "阿希官方人员携社区捐款奔赴四川灾区第一线",
+    "particular": [
+      "阿希官方人员携社区捐款奔赴四川灾区第一线。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "8月10日",
+    "title": "阿希币Asch创始人出席中国首届区块链极客高峰论坛，深刻剖析跨链技术",
+    "particular": [
+      "阿希币Asch创始人出席中国首届区块链极客高峰论坛，深刻剖析跨链技术。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "8月15日",
+    "title": "Asch 1.3.1版本发布",
+    "particular": [
+      "【共识层升级】提取受托人收益的20%转入asch-community dapp中作为社区运营资金。",
+      "【共识层升级】锁仓功能涵盖更多交易类型，包括资产转移、跨链转账、资产注册及发行等。",
+      "【网络层】解决系统启动时区块加载速度慢的问题。",
+      "【网络层】默认不兼容来自1.3.0版本以前的连接，但协议层保持兼容。",
+      "【其他】asch-js打包后尺寸缩减至200K。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "9月11日",
+    "title": "Asch 1.3.2版本发布",
+    "particular": [
+      "rollback时增加更多的日志输出。",
+      "资产转账时amount验证规则修复，只允许数字。",
+      "2个引力波账户地址余额为NaN问题修复。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "9月18日",
+    "title": "Asch 1.3.3版本发布",
+    "particular": [
+      "修复了偶现因为rollback区块导致的状态不一致问题。",
+      "删除非必须的区块索引，提高区块写入性能。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "9月20日",
+    "title": "XAS上线交易平台https://www.coinegg.com/",
+    "particular": [
+      "XAS上线交易平台https://www.coinegg.com/。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "9月27日",
+    "title": "Asch 1.3.4版本发布",
+    "particular": [
+      "解决启动时找不到mem_accounts表的问题 。",
+      "支持根据uia交易id查询交易详情 。",
+      "增加新接口/api/uia/transactions/:currency，用来获取指定资产的转账记录。",
+      "/api/uia/transactions/:address 改名为 /api/uia/transactions/my/:address。",
+      "/api/uia/transfers/:address/:currency 改名为 /api/uia/transactions/my/:address/:currency。",
+      "Asch多节点自动测试 。",
+      "transactions相关的查询，如果不传递limit则默认返回20条 。",
+      "增加新接口/api/accounts/new。",
+      "uia测试用例bug修复。",
+      "修复/api/accounts/count接口应返回mem_accounts行数。",
+      "解决了阿希钱包转账时可能产生的多次发送请求而造成的多次转账。",
+      "所有可能产生时间戳错误的post请求，现在能进行自动调校，时间差别过大会进行提醒。",
+      "修改package.json的sodium版本为2.0.1。",
+      "/api/transactions 增加and选项，默认为0。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "9月28日",
+    "title": "Asch的DAPP开发文档在github上正式发布",
+    "particular": [
+      "Asch的DAPP开发文档在github上正式发布。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "10月",
+    "title": "XAS上线新交易平台",
+    "particular": [
+      "XAS上线交易平台 https://www.chaoex.com",
+      "XAS上线交易平台 https://www.coolcoin.com",
+      "XAS上线交易平台 https://www.coinegg.com",
+      "XAS上线交易平台https://www.kucoin.com/"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "11月1日",
+    "title": "Asch新官网发布",
+    "particular": [
+      "Asch新官网发布。https://www.asch.io，所有asch.so域名都切换为asch.io。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "11月7日",
+    "title": "XAS上线新交易平台",
+    "particular": [
+      "XAS上线交易平台https://www.bit-z.com/。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "11月23日",
+    "title": "XAS上线新交易平台",
+    "particular": [
+      "XAS上线交易平台http://www.xbrick.io。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "11月25日",
+    "title": "Asch首个Dapp cctime完成给Asch/BTC/ETH/Bitshares社区持币者的空投",
+    "particular": [
+      "Asch首个Dapp cctime完成给Asch/BTC/ETH/Bitshares社区持币者的空投，本次为第一轮空投，总量10亿，并正式开启公测。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "12月5日",
+    "title": " Asch自主研发的区块链浏览器explorer.asch.io正式上线",
+    "particular": [
+      "Asch自主研发的区块链浏览器explorer.asch.io正式上线。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "12月8日",
+    "title": "阿希（Asch）荣获中国区块链技术创新应用大赛三等奖以及中国区块链发展最佳人气奖",
+    "particular": [
+      "第二届中国区块链技术创新应用大赛落下帷幕，阿希（Asch）荣获中国区块链技术创新应用大赛三等奖以及中国区块链发展最佳人气奖。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "12月21日",
+    "title": "CCTime代码正式在github上开源",
+    "particular": [
+      "CCTime代码正式在github上开源。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "12月25日",
+    "title": "CCTime开启第二期空投",
+    "particular": [
+      "CCTime开启第二期空投。"
+    ]
+  },
+  {
+    "year": "2017",
+    "monthDay": "12月26日",
+    "title": " Asch 1.3.5版本发布",
+    "particular": [
+      "支持重新锁仓，前提是新的锁仓高度要比已有的锁仓高度大，该功能在区块高度4290000时开始生效。",
+      "钱包稳定性提升，用web钱包时，转账失败概率大大降低（前端页面已支持负载均衡和高可用）。",
+      "upgrade或者rebuild时支持多节点选择。",
+      "安全性增强，修改依赖库的安全性问题。",
+      "其他bug修复。"
+    ]
+  }
+]
