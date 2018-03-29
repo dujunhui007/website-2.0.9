@@ -275,7 +275,7 @@ footer .footerContainer {
 }
 
 footer .footerLeft {
-    width: 40%;
+    width: 58%;
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content: space-between;
@@ -326,6 +326,7 @@ footer .footerLeft .footerLogo p{
 }
 
 footer .footerLeft .footerLogo span {
+    margin: 0 auto;
     display: block;
     width: 87px;
     height: 82px;
@@ -353,9 +354,8 @@ footer .footerRight a span {
 }
 
 footer .footerRight a {
-
     display: block;
-    width: 330px;
+    width: 280px;
     overflow: hidden;
 }
 
@@ -384,7 +384,7 @@ footer .footerRight span {
 
 @media screen and (max-width: 1910px) {
     footer .footerLeft{
-        width: 50%;
+        width: 54%;
     }
 }
 

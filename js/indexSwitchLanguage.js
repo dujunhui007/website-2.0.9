@@ -632,6 +632,7 @@ function loadProperties(str) {
       $('#timeLineLink').html($.i18n.prop('string_timeLineLink'));
 
       $('#dappsStatement1').html($.i18n.prop('string_dappsStatement1'));
+      $('#footerLink4').html($.i18n.prop('string_footerLink4'));
     }
   });
 }

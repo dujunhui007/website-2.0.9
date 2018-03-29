@@ -576,7 +576,7 @@ function loadProperties(str) {
 
       $('#logosOpenly').html($.i18n.prop('string_logosOpenly'));
       $('#logoCenterTitle1').html($.i18n.prop('string_logoCenterTitle1'));
-
+      $('#footerLink4').html($.i18n.prop('string_footerLink4'));
     }
   });
 }

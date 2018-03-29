@@ -243,6 +243,8 @@ $(document).ready(function () {
         $('#footerEmail2').html($.i18n.prop('string_footerEmail2'));
         $('#footerEmail3').html($.i18n.prop('string_footerEmail3'));
         $('#footerEmail4').html($.i18n.prop('string_footerEmail4'));
+
+        $('#footerLink4').html($.i18n.prop('string_footerLink4'));
       }
     });
   }
