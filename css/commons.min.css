@@ -319,7 +319,6 @@ footer .footerLeft .footerWb span {
 
 footer .footerLeft .footerLogo{
     margin-left: 40px;
-    margin-top: 10px;
 }
 
 footer .footerLeft .footerLogo p{
@@ -384,33 +383,9 @@ footer .footerRight span {
 }
 
 @media screen and (max-width: 1910px) {
-    /*nav .navContainer .navRight {*/
-    /*position: relative;*/
-    /*width: 72%;*/
-    /*min-width: 900px;*/
-    /*height: 70px;*/
-    /*text-align: right;*/
-    /*display: inline-block;*/
-    /*float: right;*/
-    /*background: 0 0;*/
-    /*padding-right: 260px;*/
-    /*}*/
-    /*nav .navContainer .navRight .equalThan li a {*/
-    /*display: block;*/
-    /*height: 100%;*/
-    /*color: #fff;*/
-    /*font-size: 16px;*/
-    /*padding-right: 8px;*/
-    /*font-family: aschFont;*/
-    /*}*/
-    /*nav .navContainer .navRight .moreThan li a {*/
-    /*display: block;*/
-    /*height: 100%;*/
-    /*color: #000;*/
-    /*font-size: 16px;*/
-    /*padding-right: 8px;*/
-    /*font-family: aschFont;*/
-    /*}*/
+    footer .footerLeft{
+        width: 50%;
+    }
 }
 
 
