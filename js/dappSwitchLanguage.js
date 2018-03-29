@@ -574,6 +574,9 @@ function loadProperties(str) {
       $('#getStartedText91').html($.i18n.prop('string_getStartedText91'));
       $('#getStartedText92').html($.i18n.prop('string_getStartedText92'));
 
+      $('#logosOpenly').html($.i18n.prop('string_logosOpenly'));
+      $('#logoCenterTitle1').html($.i18n.prop('string_logoCenterTitle1'));
+
     }
   });
 }

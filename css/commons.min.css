@@ -317,6 +317,23 @@ footer .footerLeft .footerWb span {
     background-size: cover
 }
 
+footer .footerLeft .footerLogo{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+footer .footerLeft .footerLogo p{
+    text-align: center;
+}
+
+footer .footerLeft .footerLogo span {
+    display: block;
+    width: 87px;
+    height: 82px;
+    background: url(../images/toLogo.png) no-repeat center;
+    background-size: cover
+}
+
 footer .footerRight a:hover span {
     color: #f1bb50;
 }
