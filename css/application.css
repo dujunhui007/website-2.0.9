@@ -101,8 +101,9 @@ nav .navContainer .navRight ul li a{
 }
 
 .logos .logoCoinLinks a:hover{
-   color: #ffffff;
+    color: #ffffff;
     background: #ffa71c;
+    border:1px solid transparent;
 }
 
 .logos .logoCoinLinks a{
