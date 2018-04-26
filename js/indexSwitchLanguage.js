@@ -130,8 +130,9 @@ $(function () {
       "left": "-125px"
     });
 
-    $("#home .homeContainer .homeContainerContent .aschHomeImg1 img").attr("src", "images/aschHomeUKImg.png");
     $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted1").attr("src", "images/get1.png");
+    $("#home .homeContainer .homeContainerContent .aschHomeImg1 img").attr("src", "images/aschHomeUKImg1.png");
+    $("#home .homeContainer").css({"width":"1200px","left":"calc(50% - 600px)"});
     $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted2").attr("src", "images/Getstarted.png");
 
     $("#home .homeContainer .homeContainerContent .aschHomeLinks .toWhitePaper .toWhitePaper1").attr("src", "images/white1.png");
@@ -196,7 +197,8 @@ $(function () {
     });
 
 
-    $("#home .homeContainer .homeContainerContent .aschHomeImg1 img").attr("src", "images/aschHomeChinaImg.png");
+    $("#home .homeContainer .homeContainerContent .aschHomeImg1 img").attr("src", "images/aschHomeChinaImg1.png");
+    $("#home .homeContainer").css({"width":"736px","left":"calc(50% - 368px)"});
     $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted1").attr("src", "images/getstarted2.png");
     $("#home .homeContainer .homeContainerContent .aschHomeLinks .toGetStarted .toGetStarted2").attr("src", "images/getstarted1.png");
 

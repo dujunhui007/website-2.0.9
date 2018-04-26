@@ -2,71 +2,71 @@
   {
     "year": "2016",
     "monthDay": "01.01",
-    "title": " Asch project was initiated",
+    "title": " ASCH project was initiated",
     "particular": [
-      "Asch project was initiated."
+      "ASCH project was initiated."
     ]
   },
   {
     "year": "2016",
     "monthDay": "03.01",
-    "title": "Asch analyzed DPOS algorithm’s loopholes",
+    "title": "ASCH analyzed DPOS algorithm’s loopholes",
     "particular": [
-      " Asch analyzed DPOS algorithm’s loopholes and simulated a simple attack method, and then tried to repair the loophole by realizing a simple PBFT algorithm model(the prototype of Asch consensus protocol algorithm)."
+      " ASCH analyzed DPOS algorithm’s loopholes and simulated a simple attack method, and then tried to repair the loophole by realizing a simple PBFT algorithm model(the prototype of ASCH consensus protocol algorithm)."
     ]
   },
   {
     "year": "2016",
     "monthDay": "03.21",
-    "title": "Asch released the article of the analyzation and solution of Lisk sandbox loopholes",
+    "title": "ASCH released the article of the analyzation and solution of Lisk sandbox loopholes",
     "particular": [
-      "Asch released the article of the analyzation and solution of Lisk sandbox loopholes."
+      "ASCH released the article of the analyzation and solution of Lisk sandbox loopholes."
     ]
   },
   {
     "year": "2016",
     "monthDay": "06.05",
-    "title": "Asch code base was initialized on git.oschina.net",
+    "title": "ASCH code base was initialized on git.oschina.net",
     "particular": [
-      "Asch code base was initialized on git.oschina.net."
+      "ASCH code base was initialized on git.oschina.net."
     ]
   },
   {
     "year": "2016",
     "monthDay": "06",
-    "title": "Asch realized complete DPOS and PBFT algorithm in its products",
+    "title": "ASCH realized complete DPOS and PBFT algorithm in its products",
     "particular": [
-      "Asch realized complete DPOS and PBFT algorithm in its products, and ten machines was deployed to test it. The test results fully met expectations in safety. That is, the whole system would not fork in the circumstance of frequently restarting, unconventional transmitting block, and allied cheat by several delegates."
+      "ASCH realized complete DPOS and PBFT algorithm in its products, and ten machines was deployed to test it. The test results fully met expectations in safety. That is, the whole system would not fork in the circumstance of frequently restarting, unconventional transmitting block, and allied cheat by several delegates."
     ]
   },
   {
     "year": "2016",
     "monthDay": "07.13",
-    "title": "Asch 0.9.1version was released",
+    "title": "ASCH 0.9.1version was released",
     "particular": [
-      "Asch public beta was started. Many delegates began to participate in tests."
+      "ASCH public beta was started. Many delegates began to participate in tests."
     ]
   },
   {
     "year": "2016",
     "monthDay": "07.17",
-    "title": "Asch 0.9.2 version was released",
+    "title": "ASCH 0.9.2 version was released",
     "particular": [
-      "Asch 0.9.2 version was released ."
+      "ASCH 0.9.2 version was released ."
     ]
   },
   {
     "year": "2016",
     "monthDay": "08.02",
-    "title": "Asch 0.9.3 version was released",
+    "title": "ASCH 0.9.3 version was released",
     "particular": [
-      "Asch 0.9.3 version was released."
+      "ASCH 0.9.3 version was released."
     ]
   },
   {
     "year": "2016",
     "monthDay": "08.03",
-    "title": "Asch 0.9.4 version was released",
+    "title": "ASCH 0.9.4 version was released",
     "particular": [
       "The product tended to be stable."
     ]
@@ -76,31 +76,31 @@
     "monthDay": "08.11",
     "title": "the consensus algorithm was updated to AC1.0",
     "particular": [
-      "The performance of AC0.5 is not so good. The peak of network traffic (the instant of broadcasting block) reached  1.5Mbps without any transaction. It is reasonable to ensure safety at the expenses of broadband. As a development platform, the efficiency and stability of Asch underlying platform is very important. So it is very necessary to improve broadband. And we took it into action right now. Asch system was updated to 0.9.5 version until August 9th. The peak of broadband reached to 600kbps in the testnet consisting of 49 nodes."
+      "The performance of AC0.5 is not so good. The peak of network traffic (the instant of broadcasting block) reached  1.5Mbps without any transaction. It is reasonable to ensure safety at the expenses of broadband. As a development platform, the efficiency and stability of ASCH underlying platform is very important. So it is very necessary to improve broadband. And we took it into action right now. ASCH system was updated to 0.9.5 version until August 9th. The peak of broadband reached to 600kbps in the testnet consisting of 49 nodes."
     ]
   },
   {
     "year": "2016",
     "monthDay": "08.16",
-    "title": " Asch mainnet was officially started",
+    "title": " ASCH mainnet was officially started",
     "particular": [
-      " Asch mainnet was officially started."
+      " ASCH mainnet was officially started."
     ]
   },
   {
     "year": "2016",
     "monthDay": "09.01",
-    "title": "the relevant source of the product of Asch was opened",
+    "title": "the relevant source of the product of ASCH was opened",
     "particular": [
-      "the relevant source of the product of Asch was opened. Code and related documents were  saved on github. https://github.com/sqfasd/"
+      "the relevant source of the product of ASCH was opened. Code and related documents were  saved on github. https://github.com/sqfasd/"
     ]
   },
   {
     "year": "2016",
     "monthDay": "09.08",
-    "title": "Asch 1.0.1 version was released",
+    "title": "ASCH 1.0.1 version was released",
     "particular": [
-      "Asch 1.0.1 version was released.",
+      "ASCH 1.0.1 version was released.",
       "Light wallet was officially launched.",
       "The problem of unconfirmed transactions was fixed."
     ]
@@ -108,7 +108,7 @@
   {
     "year": "2016",
     "monthDay": "09.15",
-    "title": " Asch 1.1.0 version was released",
+    "title": " ASCH 1.1.0 version was released",
     "particular": [
       "The bug that multiple dapps operate simultaneously was repaired.",
       "A front end dapp page display was added.",
@@ -118,7 +118,7 @@
       "The bugs that getdelegates was broken in some circumstance were repaired.",
       "The bug in the course of installation and uninstallation was repaired.",
       "The query interface of top account was added.",
-      "The bugs that reindex may appear with high probability when Asch restarted were repaired."
+      "The bugs that reindex may appear with high probability when ASCH restarted were repaired."
     ]
   },
   {
@@ -132,7 +132,7 @@
   {
     "year": "2016",
     "monthDay": "09.30",
-    "title": " Asch 1.1.1 version was released",
+    "title": " ASCH 1.1.1 version was released",
     "particular": [
       "the bug of synchronization in local area network was repaired and the compatibility testing of new version was added, not accepting the connection of old incompatible nodes."
     ]
@@ -140,7 +140,7 @@
   {
     "year": "2016",
     "monthDay": "10.21",
-    "title": "Asch 1.1.2 version was released",
+    "title": "ASCH 1.1.2 version was released",
     "particular": [
       "supporting i18n.",
       "The problem of synchronization stuck caused by transaction rollback was handled.",
@@ -150,7 +150,7 @@
   {
     "year": "2016",
     "monthDay": "10.26",
-    "title": " Asch 1.1.3 version was released",
+    "title": " ASCH 1.1.3 version was released",
     "particular": [
       "The problem of transaction malleability was repaired."
     ]
@@ -158,10 +158,10 @@
   {
     "year": "2016",
     "monthDay": "10.26",
-    "title": "Asch 1.1.4 version was fixed.",
+    "title": "ASCH 1.1.4 version was fixed.",
     "particular": [
       "The problem of memory leak caused by request@2.76.0 was repaired.",
-      "The special version of node model was used by Asch."
+      "The special version of node model was used by ASCH."
     ]
   },
   {
@@ -175,15 +175,15 @@
   {
     "year": "2016",
     "monthDay": "10",
-    "title": "Asch achieved a strategic cooperation with Beijing Finance Cloud Laboratory",
+    "title": "ASCH achieved a strategic cooperation with Beijing Finance Cloud Laboratory",
     "particular": [
-      "Asch achieved a strategic cooperation with Beijing Finance Cloud Laboratory, carrying out depository business(customized Asch)."
+      "ASCH achieved a strategic cooperation with Beijing Finance Cloud Laboratory, carrying out depository business(customized ASCH)."
     ]
   },
   {
     "year": "2016",
     "monthDay": "11.10",
-    "title": "Asch 1.1.5 version was released",
+    "title": "ASCH 1.1.5 version was released",
     "particular": [
       "The problem of stuck block caused by backwards tick was repaired ."
     ]
@@ -191,9 +191,9 @@
   {
     "year": "2016",
     "monthDay": "11.22",
-    "title": "Asch was invited by MZKG in Japan to conduct enterprise block-chain technology training",
+    "title": "ASCH was invited by MZKG in Japan to conduct enterprise block-chain technology training",
     "particular": [
-      "Asch was invited by MZKG in Japan to conduct enterprise block-chain technology training."
+      "ASCH was invited by MZKG in Japan to conduct enterprise block-chain technology training."
     ]
   },
   {
@@ -207,39 +207,39 @@
   {
     "year": "2016",
     "monthDay": "12",
-    "title": "Asch achieved a business cooperation with Japanese Telecom, issuing digit asset",
+    "title": "ASCH achieved a business cooperation with Japanese Telecom, issuing digit asset",
     "particular": [
-      "Asch achieved a business cooperation with Japanese Telecom, issuing digit asset."
+      "ASCH achieved a business cooperation with Japanese Telecom, issuing digit asset."
     ]
   },
   {
     "year": "2016",
     "monthDay": "12.20",
-    "title": "Asch ecology community released green paper",
+    "title": "ASCH ecology community released green paper",
     "particular": [
-      "Asch ecology community released green paper. The chairmans and vice-chairmans of the volunteer association, delegates association and the developers association were elected within one week."
+      "ASCH ecology community released green paper. The chairmans and vice-chairmans of the volunteer association, delegates association and the developers association were elected within one week."
     ]
   },
   {
     "year": "2017",
     "monthDay": "01.18",
-    "title": "Asch 1.2.1 version was released",
+    "title": "ASCH 1.2.1 version was released",
     "particular": [
-      "Asch 1.2.1 version was released."
+      "ASCH 1.2.1 version was released."
     ]
   },
   {
     "year": "2017",
     "monthDay": "2月17日",
-    "title": "Asch 1.2.2 version was released",
+    "title": "ASCH 1.2.2 version was released",
     "particular": [
-      "Asch 1.2.2 version was released."
+      "ASCH 1.2.2 version was released."
     ]
   },
   {
     "year": "2017",
     "monthDay": "2月26日",
-    "title": "Asch 1.2.3 version was released",
+    "title": "ASCH 1.2.3 version was released",
     "particular": [
       "The simple storage function was added(customized by Centrin Cloud).",
       "the UIA function was added.",
@@ -250,7 +250,7 @@
   {
     "year": "2017",
     "monthDay": "02.26",
-    "title": "Asch 1.2.4 version was released",
+    "title": "ASCH 1.2.4 version was released",
     "particular": [
       "The address of base58check format was activated after 1700000 block."
     ]
@@ -258,15 +258,15 @@
   {
     "year": "2017",
     "monthDay": "03.01",
-    "title": "Asch 1.2.6 version was released",
+    "title": "ASCH 1.2.6 version was released",
     "particular": [
-      "Asch 1.2.6 version was released."
+      "ASCH 1.2.6 version was released."
     ]
   },
   {
     "year": "2017",
     "monthDay": "03.01",
-    "title": "Asch mainnet 1.2 was officially activated",
+    "title": "ASCH mainnet 1.2 was officially activated",
     "particular": [
       "The storage function interface and UIA interface were added.",
       "WEB graphic interface was improved.",
@@ -278,7 +278,7 @@
   {
     "year": "2017",
     "monthDay": "03.05",
-    "title": "Asch Version 1.2.7 was released",
+    "title": "ASCH Version 1.2.7 was released",
     "particular": [
       "Bug in submitting transactions in front end was fixed.",
       "Bug in displaying pop-up dialogue box was fixed.",
@@ -290,7 +290,7 @@
     "monthDay": "04.07",
     "title": "Zhang Shousong gave a keynote speech",
     "particular": [
-      "Zhang Shousong gave a keynote speech named “Asch2.0--Meeting changes with constancy” in the 2nd China Financial Transaction Technology conference."
+      "Zhang Shousong gave a keynote speech named “ASCH2.0--Meeting changes with constancy” in the 2nd China Financial Transaction Technology conference."
     ]
   },
   {
@@ -304,25 +304,25 @@
   {
     "year": "2017",
     "monthDay": "05.14",
-    "title": "Asch took part in the first blockchain development competition in China",
+    "title": "ASCH took part in the first blockchain development competition in China",
     "particular": [
-      "Asch took part in the first blockchain development competition in China."
+      "ASCH took part in the first blockchain development competition in China."
     ]
   },
   {
     "year": "2017",
     "monthDay": "06.05",
-    "title": " Android version and M version of Asch mobile wallet were launched officially",
+    "title": " Android version and M version of ASCH mobile wallet were launched officially",
     "particular": [
-      " Android version and M version of Asch mobile wallet were launched officially."
+      " Android version and M version of ASCH mobile wallet were launched officially."
     ]
   },
   {
     "year": "2017",
     "monthDay": "06.18",
-    "title": "the development of Asch 1.3 was completed",
+    "title": "the development of ASCH 1.3 was completed",
     "particular": [
-      "the development of Asch 1.3 was completed, internal testing started in the meantime."
+      "the development of ASCH 1.3 was completed, internal testing started in the meantime."
     ]
   },
   {
@@ -344,9 +344,9 @@
   {
     "year": "2017",
     "monthDay": "07.18",
-    "title": "Asch version 1.3.0 was released",
+    "title": "ASCH version 1.3.0 was released",
     "particular": [
-      "Asch version 1.3.0 was released."
+      "ASCH version 1.3.0 was released."
     ]
   },
   {
@@ -360,47 +360,47 @@
   {
     "year": "2017",
     "monthDay": "08.03",
-    "title": "Asch officially joined Zhejiang province blockchain technology application association and became a full member of it",
+    "title": "ASCH officially joined Zhejiang province blockchain technology application association and became a full member of it",
     "particular": [
-      "Asch officially joined Zhejiang province blockchain technology application association and became a full member of it.  "
+      "ASCH officially joined Zhejiang province blockchain technology application association and became a full member of it.  "
     ]
   },
   {
     "year": "2017",
     "monthDay": "08.06",
-    "title": "Shan Qingfeng --Founder of Asch, gave a report of side-chain technology and blockchain 2.5 on China blockchain geek summit forum",
+    "title": "Shan Qingfeng --Founder of ASCH, gave a report of side-chain technology and blockchain 2.5 on China blockchain geek summit forum",
     "particular": [
-      "Shan Qingfeng --Founder of Asch, gave a report of side-chain technology and blockchain 2.5 on China blockchain geek summit forum."
+      "Shan Qingfeng --Founder of ASCH, gave a report of side-chain technology and blockchain 2.5 on China blockchain geek summit forum."
     ]
   },
   {
     "year": "2017",
     "monthDay": "08.07",
-    "title": "CCTime, the first demonstration DAPP based on Asch chain, and the white paper of it were published",
+    "title": "CCTime, the first demonstration DAPP based on ASCH chain, and the white paper of it were published",
     "particular": [
-      "CCTime, the first demonstration DAPP based on Asch chain, and the white paper of it were published."
+      "CCTime, the first demonstration DAPP based on ASCH chain, and the white paper of it were published."
     ]
   },
   {
     "year": "2017",
     "monthDay": "08.10",
-    "title": "Asch officials headed to the disaster area in Sichuan province with the donations from Asch community",
+    "title": "ASCH officials headed to the disaster area in Sichuan province with the donations from ASCH community",
     "particular": [
-      "Asch officials headed to the disaster area in Sichuan province with the donations from Asch community."
+      "ASCH officials headed to the disaster area in Sichuan province with the donations from ASCH community."
     ]
   },
   {
     "year": "2017",
     "monthDay": "08.10",
-    "title": "founder of Asch attended the first geek summit forum in China and analyzed the cross-chain technology thoroughly",
+    "title": "founder of ASCH attended the first geek summit forum in China and analyzed the cross-chain technology thoroughly",
     "particular": [
-      "founder of Asch attended the first geek summit forum in China and analyzed the cross-chain technology thoroughly."
+      "founder of ASCH attended the first geek summit forum in China and analyzed the cross-chain technology thoroughly."
     ]
   },
   {
     "year": "2017",
     "monthDay": "08.15",
-    "title": " Asch Version 1.3.1 was released",
+    "title": " ASCH Version 1.3.1 was released",
     "particular": [
       "【Consensus Layer Upgrade】Keep 20% of the total earnings from the 101 delegates as working capital for the community.",
       "【Consensus Layer Upgrade】Lock position function covers more kinds of transactions which include asset transformation, cross-chain transfer, asset registration and issuance, etc.",
@@ -412,7 +412,7 @@
   {
     "year": "2017",
     "monthDay": "09.11",
-    "title": "Asch Version 1.3.2 was released",
+    "title": "ASCH Version 1.3.2 was released",
     "particular": [
       "More journals were output when roll back.",
       "Validation rule for transfer amount is fixed, only number is permitted.",
@@ -422,7 +422,7 @@
   {
     "year": "2017",
     "monthDay": "09.18",
-    "title": "AschVersion 1.3.3 was released",
+    "title": "ASCH Version 1.3.3 was released",
     "particular": [
       "Fixed the inconsistency problem when the block was rolled back.",
       "Unnecessary block indexes were deleted to improve the write performance."
@@ -439,19 +439,19 @@
   {
     "year": "2017",
     "monthDay": "09.27",
-    "title": "Asch Version 1.3.4 was released",
+    "title": "ASCH Version 1.3.4 was released",
     "particular": [
       "The bug of missing mem_accounts table when started was fixed.",
       "Enquiry of transaction details through the uia transaction ID was supported.",
       "Adding new port “/api/uia/transactions/:currency” to acquire the transfer record of the specified asset.",
       "/api/uia/transactions/:address” was changed to “/api/uia/transactions/my/:address",
       "/api/uia/transfers/:address/:currency was changed to /api/uia/transactions/my/:address/:currency.",
-      "Auto test of multiple nodes of Asch.",
+      "Auto test of multiple nodes of ASCH.",
       "If no limitation is sent, 20 records will be displayed by default when inquiring transaction related information.",
       "New port--/api/accounts/new, was added.",
       "Fixed the bugs in uia test sample.",
       "Corrected the row number of mem_accounts returned from /api/accounts/count port.",
-      "Fixed the bugs of repeated transfer in Asch wallet caused by sending multiple request.",
+      "Fixed the bugs of repeated transfer in ASCH wallet caused by sending multiple request.",
       "Auto tuning function is added to check the time difference, which can help to eliminate the post requests that may cause wrong timestamps.",
       "The sodium of  package.json. was modified into Version 2.0.1.",
       "/api/transactions added an “and” option, default is 0."
@@ -460,9 +460,9 @@
   {
     "year": "2017",
     "monthDay": "09.28",
-    "title": " the development document of Asch DAPP is published on github",
+    "title": " the development document of ASCH DAPP is published on github",
     "particular": [
-      " the development document of Asch DAPP is published on github."
+      " the development document of ASCH DAPP is published on github."
     ]
   },
   {
@@ -479,9 +479,9 @@
   {
     "year": "2017",
     "monthDay": "11.01",
-    "title": "Asch released new official website with asch.io as new domain name",
+    "title": "ASCH released new official website with asch.io as new domain name",
     "particular": [
-      "Asch released new official website with asch.io as new domain name."
+      "ASCH released new official website with asch.io as new domain name."
     ]
   },
   {
@@ -505,23 +505,23 @@
     "monthDay": "11.25",
     "title": "the first airdrop of CCTime to XAS/BTC/ETH/BTS was completed",
     "particular": [
-      "the first airdrop of CCTime to XAS/BTC/ETH/BTS was completed, 1000,000,000 XCT in total was distributed in the airdrop. CCTime is the first DAPP based on Asch chain with XCT as its token."
+      "the first airdrop of CCTime to XAS/BTC/ETH/BTS was completed, 1000,000,000 XCT in total was distributed in the airdrop. CCTime is the first DAPP based on ASCH chain with XCT as its token."
     ]
   },
   {
     "year": "2017",
     "monthDay": "12.05",
-    "title": "explorer.asch.io, the blockchain explorer developed by Asch was launched officially",
+    "title": "explorer.asch.io, the blockchain explorer developed by ASCH was launched officially",
     "particular": [
-      "explorer.asch.io, the blockchain explorer developed by Asch was launched officially."
+      "explorer.asch.io, the blockchain explorer developed by ASCH was launched officially."
     ]
   },
   {
     "year": "2017",
     "monthDay": "12.08",
-    "title": "Asch won the third prize and the best popularity reward",
+    "title": "ASCH won the third prize and the best popularity reward",
     "particular": [
-      "the 2nd blockchain technology innovation and application competition in China came to an end, Asch won the third prize and the best popularity reward."
+      "the 2nd blockchain technology innovation and application competition in China came to an end, ASCH won the third prize and the best popularity reward."
     ]
   },
   {
@@ -543,7 +543,7 @@
   {
     "year": "2017",
     "monthDay": "12.26",
-    "title": "version 1.3.5 of Asch was released",
+    "title": "version 1.3.5 of ASCH was released",
     "particular": [
       "A new lock position can be set if it’s higher than the current lock position, this function will come into effect when the block height reaches 4290000.",
       "Stability of the wallet is improved, the probability of transfer failure is significantly reduced (the previous page has already supported load balancing and high availability) when using web wallet.",
