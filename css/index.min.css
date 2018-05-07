@@ -1444,7 +1444,14 @@ ul.homeLinks li:nth-child(4) i {
     width: 85px;
     height: 66px;
     right: 10px;
-    bottom: -52px;
+    bottom: -42px;
+}
+
+#application .swiper-container .swiper-wrapper .dapp9 .hotTopImg i {
+    width: 85px;
+    height: 66px;
+    right: 10px;
+    bottom: -42px;
 }
 
 #application .swiper-container .swiper-wrapper .swiper-slide .applicationDetail {

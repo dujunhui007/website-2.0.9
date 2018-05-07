@@ -56,11 +56,12 @@
     "link": "Read more"
   },
   {
-    "dappName": "Propitious Dog",
-    "dappImgUrl": "images/propitiousDogx.png",
-    "dappWatermarkUrl": "images/watermark7.png",
+    "dappName": "3UDAO",
+    "dappImgUrl": "images/3udaoImg1.png",
+    "dappWatermarkUrl": "images/3udaoIcon.png",
     "description":
-      "Leaving 2017 Year of the Rooster, 2018 Year of dog is coming. As Spring Festival which is Chinas most important traditional festival arrives, Chinas first encrypted zodiac collection applications based on blockchain technology will be released on the ASCH Chain platform.",
+    "3UDAO is a Blockchain based Distributed Autonomy application developed and operated by 3U Blockchain Community.",
     "link": "Read more"
   }
+
 ]

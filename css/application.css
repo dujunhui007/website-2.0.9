@@ -324,6 +324,17 @@ nav .navContainer .navRight ul li a{
     background-size: cover;
 }
 
+.applicationContainer .applicationCenter .applicationContent .applicationContentRight i.uDaoWatermark {
+    position: absolute;
+    display: block;
+    width: 105px;
+    height: 105px;
+    right: 10px;
+    top: -40px;
+    background: url(../images/3udaoIcon.png) no-repeat center;
+    background-size: cover;
+}
+
 .applicationContainer .applicationCenter .applicationContent .applicationContentRight .contentRightTitle {
     display: block;
     width: 96%;

@@ -374,12 +374,21 @@ $(function () {
       }),
 
       $("#application .dapp8").click(function () {
-        window.open("dapp7.html");
-      }),
+      window.open("dapp9.html");
+    }),
 
       $("#applicationDetailMore8").click(function () {
         event.stopPropagation();
-        window.open("dapp7.html");
+        window.open("dapp9.html");
+      }),
+
+    $("#application .dapp9").click(function () {
+      window.open("dapp9.html");
+    }),
+
+      $("#applicationDetailMore9").click(function () {
+        event.stopPropagation();
+        window.open("dapp9.html");
       })
   }
 

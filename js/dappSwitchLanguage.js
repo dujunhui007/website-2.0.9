@@ -172,6 +172,7 @@ function loadProperties(str) {
       $('#applicationCenterTitle6').html($.i18n.prop('string_applicationCenterTitle1'));
       $('#applicationCenterTitle7').html($.i18n.prop('string_applicationCenterTitle1'));
       $('#applicationCenterTitle8').html($.i18n.prop('string_applicationCenterTitle1'));
+      $('#applicationCenterTitle9').html($.i18n.prop('string_applicationCenterTitle1'));
 
       $('#dappsList').html($.i18n.prop('string_dappsList'));
       $('#dappsTitle2').html($.i18n.prop('string_dappsTitle2'));
@@ -189,6 +190,7 @@ function loadProperties(str) {
       $('#dappsContentTest6').html($.i18n.prop('string_dappsContentTest6'));
       $('#dappsContentTest7').html($.i18n.prop('string_dappsContentTest7'));
       $('#dappsContentTest8').html($.i18n.prop('string_dappsContentTest8'));
+      $('#dappsContentTest9').html($.i18n.prop('string_dappsContentTest9'));
 
       $('#dappsLink1').html($.i18n.prop('string_dappsLink1'));
       $('#dappsLink2').html($.i18n.prop('string_dappsLink1'));
@@ -198,6 +200,7 @@ function loadProperties(str) {
       $('#dappsLink6').html($.i18n.prop('string_dappsLink1'));
       $('#dappsLink7').html($.i18n.prop('string_dappsLink1'));
       $('#dappsLink8').html($.i18n.prop('string_dappsLink1'));
+      $('#dappsLink9').html($.i18n.prop('string_dappsLink1'));
 
       $('#dappsContentTest11').html($.i18n.prop('string_aschSide1'));
       $('#dappsContentTest12').html($.i18n.prop('string_aschSide2'));
@@ -223,6 +226,9 @@ function loadProperties(str) {
       $('#dappsContentTest81').html($.i18n.prop('string_aschSide22'));
       $('#dappsContentTest82').html($.i18n.prop('string_aschSide23'));
       $('#dappsContentTest83').html($.i18n.prop('string_aschSide24'));
+      $('#dappsContentTest91').html($.i18n.prop('string_aschSide25'));
+      $('#dappsContentTest92').html($.i18n.prop('string_aschSide26'));
+      $('#dappsContentTest93').html($.i18n.prop('string_aschSide27'));
 
 
 
@@ -234,6 +240,7 @@ function loadProperties(str) {
       $('#dappDescribe6').html($.i18n.prop('string_dappDescribe6'));
       $('#dappDescribe7').html($.i18n.prop('string_dappDescribe7'));
       $('#dappDescribe8').html($.i18n.prop('string_dappDescribe8'));
+      $('#dappDescribe9').html($.i18n.prop('string_dappDescribe9'));
 
       $('#aschSide1').html($.i18n.prop('string_aschSide1'));
       $('#aschSide2').html($.i18n.prop('string_aschSide2'));
@@ -259,6 +266,9 @@ function loadProperties(str) {
       $('#aschSide22').html($.i18n.prop('string_aschSide22'));
       $('#aschSide23').html($.i18n.prop('string_aschSide23'));
       $('#aschSide24').html($.i18n.prop('string_aschSide24'));
+      $('#aschSide25').html($.i18n.prop('string_aschSide25'));
+      $('#aschSide26').html($.i18n.prop('string_aschSide26'));
+      $('#aschSide27').html($.i18n.prop('string_aschSide27'));
 
       $('#websiteText1').html($.i18n.prop('string_websiteText1'));
       $('#websiteText2').html($.i18n.prop('string_websiteText1'));
@@ -291,6 +301,7 @@ function loadProperties(str) {
       $('#dappIntroduction6').html($.i18n.prop('string_dappIntroduction1'));
       $('#dappIntroduction7').html($.i18n.prop('string_dappIntroduction1'));
       $('#dappIntroduction8').html($.i18n.prop('string_dappIntroduction1'));
+      $('#dappIntroduction9').html($.i18n.prop('string_dappIntroduction1'));
 
       $('#dappIntroductionContent1').html($.i18n.prop('string_dappIntroductionContent1'));
       $('#dappIntroductionContent2').html($.i18n.prop('string_dappIntroductionContent2'));
@@ -300,6 +311,7 @@ function loadProperties(str) {
       $('#dappIntroductionContent6').html($.i18n.prop('string_dappIntroductionContent6'));
       $('#dappIntroductionContent7').html($.i18n.prop('string_dappIntroductionContent7'));
       $('#dappIntroductionContent8').html($.i18n.prop('string_dappIntroductionContent8'));
+      $('#dappIntroductionContent9').html($.i18n.prop('string_dappIntroductionContent9'));
 
       $('#dappFooterText11').html($.i18n.prop('string_dappFooterText11'));
       $('#dappFooterText21').html($.i18n.prop('string_dappFooterText11'));
